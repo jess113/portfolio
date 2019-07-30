@@ -72,7 +72,7 @@ let resumeData = {
       imgurl:"images/portfolio/outchat.png",
       title:"OutChat",
       githubLink:"https://github.com/jess113/OutChat",
-      fullDescription:"A real-time interactive chat app built with React, including instant messaging, photo, username, and delete functions, with responsible UI; the app is currently hosted on Firebasey at https://outchat-hcde.firebaseapp.com."
+      fullDescription:"A real-time interactive chat app built with React, including instant messaging, photo, username, and delete functions, with responsible UI; the app is currently hosted on Firebase at https://outchat-hcde.firebaseapp.com."
     },
     {
       name:"WeatherCrawler",
