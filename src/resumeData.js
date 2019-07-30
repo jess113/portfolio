@@ -3,6 +3,7 @@ let resumeData = {
   role: "aspiring UX Designer",
   linkedinId:"jess113",
   skypeid: "Your skypeid",
+  email: "jess113@uw.edu",
   roleDescription: "I am deeply interested in both UX design/research and history, currently exploring the intersections of two disparate disciplines.",
   socialLinks:[
       {
@@ -71,23 +72,23 @@ let resumeData = {
       imgurl:"images/portfolio/outchat.png",
       title:"OutChat",
       githubLink:"https://github.com/jess113/OutChat",
-      fullDescription:"A real-time interactive chat app built with React, including instant messaging, photo, username, and delete functions, with responsible UI, hosted on Firebase."
+      fullDescription:"A real-time interactive chat app built with React, including instant messaging, photo, username, and delete functions, with responsible UI, hosted on Firebasey."
     },
     {
       name:"WeatherCrawler",
       description:"search app",
-      imgurl:"images/portfolio/WeatherCrawler.png",
+      imgurl:"images/portfolio/weathercrawler.png",
       title:"WeatherCrawler",
       githubLink:"https://github.com/jess113/WeatherCrawler",
       fullDescription:"An online search engine that uses OpenWeatherMap to return temperature forecast for cities around the world."
     },
     {
-      name:"???",
-      description:"?",
-      imgurl:"images/portfolio/phone.jpg",
-      title:"???",
-      githubLink:"https://github.com",
-      fullDescription:""
+      name:"MemeCrawler",
+      description:"search app",
+      imgurl:"images/portfolio/memecrawler.png",
+      title:"MemeCrawler",
+      githubLink:"https://github.com/jess113/MemeCrawler",
+      fullDescription:"An online search engine that uses GIPHY to return gifs."
     },
   ],
 }
