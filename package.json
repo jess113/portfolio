@@ -12,11 +12,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf docs && react-scripts build && mv build docs",
+    "build": "del docs && react-scripts build && move build docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://evanfeenstra.github.io/portfolio/",
+  "homepage": "https://jess113.github.io/portfolio/",
   "eslintConfig": {
     "extends": "react-app"
   },
