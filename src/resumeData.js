@@ -1,18 +1,18 @@
 let resumeData = {
-  name: "Evan Feenstra",
-  role: "Frontend Web Developer",
-  linkedinId:"evanfeenstra",
+  name: "Jesse Du",
+  role: "aspiring UX Designer",
+  linkedinId:"jess113",
   skypeid: "Your skypeid",
-  roleDescription: "asdf  blah blahI like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or play music in my free time.",
+  roleDescription: "I am deeply interested in both UX design/research and history, currently exploring the intersections of two disparate disciplines.",
   socialLinks:[
       {
         name:"linkedin",
-        url:"https://www.linkedin.com/in/evanfeenstra",
+        url:"https://www.linkedin.com/in/jess113",
         className:"fa fa-linkedin"
       },
       {
         name:"github",
-        url:"http://github.com/",
+        url:"http://github.com/jess113",
         className:"fa fa-github"
       },
       {
@@ -21,38 +21,32 @@ let resumeData = {
         className:"fa fa-skype"
       }
     ],
-  aboutme:"I have finished my B.S. in Human Centered Design and Engineering, and am currently seeking a Web Development position.",
+  aboutme:"I am currently finishing my B.S. in Human Centered Design and Engineering and B.A. in History.",
   address:"Seattle, Washington",
   education:[
     {
       UniversityName:"University of Washington",
-      specialization:"Some specialization",
+      specialization:"HCDE/History",
       MonthOfPassing:"June",
-      YearOfPassing:"2019",
-      Achievements:"Some Achievements"
+      YearOfPassing:"2021",
+      Achievements:"Interdisciplinary Honors Program, Honors in History"
     },
-    {
-      UniversityName:"Some University",
-      specialization:"Some specialization",
-      MonthOfPassing:"Jan",
-      YearOfPassing:"2018",
-      Achievements:"Some Achievements"
-    }
+
   ],
   work:[
     {
-      CompanyName:"UW ",
-      specialization:"Instructor",
-      MonthOfLeaving:"Jan",
-      YearOfLeaving:"2018",
-      Achievements:"Some Achievements"
+      CompanyName:"UW Department of HCDE",
+      specialization:"Researcher",
+      MonthOfLeaving:"August",
+      YearOfLeaving:"2019",
+      Achievements:"Conducting user research for the HCDE Alumni Leadership Board"
     },
     {
-      CompanyName:"Some Company",
-      specialization:"Some specialization",
+      CompanyName:"UW Committee for China-US Dialogue",
+      specialization:"Event Organizer/Liaison",
       MonthOfLeaving:"Jan",
-      YearOfLeaving:"2018",
-      Achievements:"Some Achievements"
+      YearOfLeaving:"2019",
+      Achievements:"Organizing open lecture series for the 2019-20 academic year"
     }
   ],
   skillsDescription:"My skills:",
@@ -72,28 +66,28 @@ let resumeData = {
   ],
   portfolio:[
     {
-      name:"project1",
-      description:"mobileapp",
+      name:"OutChat",
+      description:"chat app",
+      imgurl:"images/portfolio/outchat.png",
+      title:"OutChat",
+      githubLink:"https://github.com/jess113/OutChat",
+      fullDescription:"A real-time interactive chat app built with React, including instant messaging, photo, username, and delete functions, with responsible UI, hosted on Firebase."
+    },
+    {
+      name:"WeatherCrawler",
+      description:"search app",
+      imgurl:"images/portfolio/WeatherCrawler.png",
+      title:"WeatherCrawler",
+      githubLink:"https://github.com/jess113/WeatherCrawler",
+      fullDescription:"An online search engine that uses OpenWeatherMap to return temperature forecast for cities around the world."
+    },
+    {
+      name:"???",
+      description:"?",
       imgurl:"images/portfolio/phone.jpg",
-      title:"Phone App",
-      githubLink:"https://github.com/Evanfeenstra/chatter",
-      fullDescription:"this is a longer description about this app this is a longer description about this app this is a longer description about this app this is a longer description about this app this is a longer description about this app this is a longer description about this app this is a longer description about this app "
-    },
-    {
-      name:"project2",
-      description:"mobileapp",
-      imgurl:"images/portfolio/weatherer.png",
-      title:"Something",
+      title:"???",
       githubLink:"https://github.com",
-      fullDescription:"this is a longer description about this app"
-    },
-    {
-      name:"project3",
-      description:"mobileapp",
-      imgurl:"images/portfolio/chatter.jpg",
-      title:"Hello",
-      githubLink:"https://github.com",
-      fullDescription:"this is a longer description about this app"
+      fullDescription:""
     },
   ],
 }
