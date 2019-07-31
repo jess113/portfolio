@@ -1,88 +1,103 @@
 import React, { Component } from 'react';
 import resumeData from '../resumeData';
+import { Document, Page, pdfjs } from 'react-pdf';
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-export default  class Resume extends Component {
+
+export default class Resume extends Component {
+
   render() {
     return (
       <section id="resume">
 
-         <div className="row education">
+        <div className="row education">
 
-            <div className="three columns header-col">
-               <h1><span>Education</span></h1>
-            </div>
+          <div className="three columns header-col">
+            <h1><span>Education</span></h1>
+          </div>
 
-            <div className="nine columns main-col">
-              {
-                resumeData.education && resumeData.education.map((item,i)=>{
-                  return(
-                    <div key={i} className="row item">
-                       <div className="twelve columns">
-                          <h3>{item.UniversityName}</h3>
-                          <p className="info">
-                          {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
-                          <p>
-                          {item.Achievements}
-                          </p>
-                       </div>
+          <div className="nine columns main-col">
+            {
+              resumeData.education && resumeData.education.map((item, i) => {
+                return (
+                  <div key={i} className="row item">
+                    <div className="twelve columns">
+                      <h3>{item.UniversityName}</h3>
+                      <p className="info">
+                        {item.specialization}
+                        <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
+                      <p>
+                        {item.Achievements}
+                      </p>
                     </div>
-                  )
-                })
-              }
-            </div>
-         </div>
+                  </div>
+                )
+              })
+            }
+          </div>
+        </div>
         <div className="row work">
-            <div className="three columns header-col">
-               <h1><span>Work</span></h1>
-            </div>
+          <div className="three columns header-col">
+            <h1><span>Work</span></h1>
+          </div>
 
-            <div className="nine columns main-col">
-              {
-                resumeData.work && resumeData.work.map((item,i) => {
-                  return(
-                    <div key={i} className="row item">
-                       <div className="twelve columns">
-                          <h3>{item.CompanyName}</h3>
-                          <p className="info">
-                          {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                          <p>
-                          {item.Achievements}
-                          </p>
-                       </div>
-
+          <div className="nine columns main-col">
+            {
+              resumeData.work && resumeData.work.map((item, i) => {
+                return (
+                  <div key={i} className="row item">
+                    <div className="twelve columns">
+                      <h3>{item.CompanyName}</h3>
+                      <p className="info">
+                        {item.specialization}
+                        <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
+                      <p>
+                        {item.Achievements}
+                      </p>
                     </div>
 
-                  )
-                })
-              }
-            </div> 
-         </div>
+                  </div>
 
+                )
+              })
+            }
+          </div>
+        </div>
 
-         <div className="row skill">
+        <div className="row document">
+          
+            
+            <Document
+              file="resume.pdf"
+            >
+              <Page pageNumber={2} />
+            </Document>
+            
+          </div>
+        
 
-            <div className="three columns header-col">
-               <h1><span>Skills</span></h1>
-            </div>
+        <div className="row skill">
 
-            <div className="nine columns main-col">
+          <div className="three columns header-col">
+            <h1><span>Skills</span></h1>
+          </div>
 
-               <p>
-               {resumeData.skillsDescription}
-               </p>
+          <div className="nine columns main-col">
 
-   				<div className="bars">
+            <p>
+              {resumeData.skillsDescription}
+            </p>
 
-   				   <ul className="skills">
+            <div className="bars">
+
+              <ul className="skills">
                 {
-                  resumeData.skills && resumeData.skills.map((item,i) => {
-                    return(
+                  resumeData.skills && resumeData.skills.map((item, i) => {
+                    return (
                       <li key={i}>
                         <span
                           className={`bar-expand ${item.skillname.toLowerCase()}`}
-                          style={{width:`${item.level}%`}}
+                          style={{ width: `${item.level}%` }}
                         >
                         </span><em>{item.skillname}</em>
                       </li>
@@ -90,13 +105,13 @@ export default  class Resume extends Component {
                   })
                 }
 
-   					</ul>
+              </ul>
 
-   				</div>
+            </div>
 
-   			</div>
+          </div>
 
-         </div>
+        </div>
 
       </section>
     );
