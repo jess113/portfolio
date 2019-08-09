@@ -5,19 +5,33 @@ import Resume from './components/resume';
 import Portfolio from './components/portfolio';
 import Contact from './components/contact';
 import Footer from './components/footer';
-import './App.css'
+import './App.css';
+import LinkNow from './pages/LinkNow';
+import { BrowserRouter, Route } from 'react-router-dom';
+
 //
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header />
-        <About />
-        <Resume />
-        <Portfolio />
-        <Contact />
-        <Footer />
-      </div>
+      <BrowserRouter>
+        <div>
+          <Route exact={true} path='/' render={() => (
+            <div className="App">
+              <Header />
+              <About />
+              <Resume />
+              <Portfolio />
+              <Contact />
+              <Footer />
+            </div>
+          )} />
+          <Route exact={true} path='/LinkNow' render={() => (
+            <div className="App">
+              <LinkNow />
+            </div>
+          )}/>
+        </div>
+      </BrowserRouter>
     );
   }
 }
