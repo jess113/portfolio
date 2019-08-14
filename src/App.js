@@ -7,7 +7,8 @@ import Contact from './components/contact';
 import Footer from './components/footer';
 import './App.css';
 import LinkNow from './pages/LinkNow';
-import { BrowserRouter, Route } from 'react-router-dom';
+import NotFound from './pages/404';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
 //
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div>
+          <Switch>
           <Route exact={true} path='/' render={() => (
             <div className="App">
               <Header />
@@ -30,6 +32,9 @@ class App extends Component {
               <LinkNow />
             </div>
           )}/>
+          <Route component={NotFound}/>
+          <Redirect to="/404"/>
+          </Switch>
         </div>
       </BrowserRouter>
     );

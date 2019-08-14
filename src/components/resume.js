@@ -65,17 +65,16 @@ export default class Resume extends Component {
         </div>
 
         <div className="row document">
-          
-            
-            <Document
-              file="resume.pdf"
-            >
-              <Page pageNumber={2} />
-            </Document>
-            
-          </div>
-        
 
+          <Document
+            file="resume.pdf"
+          >
+            <Page pageNumber={2} />
+          </Document>
+
+        </div>
+
+{/*
         <div className="row skill">
 
           <div className="three columns header-col">
@@ -112,7 +111,7 @@ export default class Resume extends Component {
           </div>
 
         </div>
-
+              */}
       </section>
     );
   }

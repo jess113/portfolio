@@ -1,49 +1,55 @@
 import React, { Component } from 'react';
 import resumeData from '../resumeData';
 import Modal from 'react-awesome-modal';
+import logo from './LinkNow_logo.png';
+import { Link } from 'react-router-dom';
 
 export default class Porfolio extends Component {
 
-  state={
-    modal:{}
+  state = {
+    modal: {}
   }
 
   closeModal = () => {
-    this.setState({ modal:{} })
+    this.setState({ modal: {} })
   }
 
   render() {
-    const {modal} = this.state
+    const { modal } = this.state
     return (<section id="portfolio">
+      <h1>My projects</h1>
+      <div className="img">
+        <Link to="/LinkNow"><img src={logo} title="LinkNow" alt="LinkNow" /></Link>
+      </div>
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>Check Out Some of My Work.</h1>
+          <h1>A bunch of codes</h1>
           <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
-          {
-            resumeData.portfolio && resumeData.portfolio.map((item, i)=>{
-              return(
-                <div key={i} className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <div onClick={()=>this.setState({modal:item})} style={{cursor:'pointer'}}>
-                      <img src={`${item.imgurl}`} className="item-img" alt="img"/>
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>{item.name}</h5>
-                          <p>{item.description}</p>
+            {
+              resumeData.portfolio && resumeData.portfolio.map((item, i) => {
+                return (
+                  <div key={i} className="columns portfolio-item">
+                    <div className="item-wrap">
+                      <div onClick={() => this.setState({ modal: item })} style={{ cursor: 'pointer' }}>
+                        <img src={`${item.imgurl}`} className="item-img" alt="img" />
+                        <div className="overlay">
+                          <div className="portfolio-item-meta">
+                            <h5>{item.name}</h5>
+                            <p>{item.description}</p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              )
-            })
-          }
+                )
+              })
+            }
           </div>
         </div>
       </div>
 
-      <Modal 
-        visible={modal&&modal.name}
+      <Modal
+        visible={modal && modal.name}
         width="600"
         height="400"
         effect="fadeInUp"
@@ -62,6 +68,6 @@ export default class Porfolio extends Component {
         </div>
       </Modal>
 
-  </section>);
+    </section>);
   }
 }
