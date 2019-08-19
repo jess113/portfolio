@@ -6,6 +6,7 @@ import Portfolio from './components/portfolio';
 import Contact from './components/contact';
 import Footer from './components/footer';
 import './App.css';
+import "react-image-gallery/styles/css/image-gallery.css";
 import LinkNow from './pages/LinkNow';
 import NotFound from './pages/404';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';

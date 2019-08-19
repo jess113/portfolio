@@ -277,6 +277,151 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
+/* ------------------------------------------------------------------ */
+/* d.1. Introduction Section
+/* ------------------------------------------------------------------ */
+
+#introduction {
+   background: #fff;
+   padding-top:90px;
+   overflow: hidden;
+}
+
+#introduction a, #introduction a:visited  { color: #11ABB0; }
+#introduction a:hover, #introduction a:focus { color: #313131; }
+
+#introduction h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#introduction h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#introduction h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#introduction .header-col { padding-top: 9px; }
+#introduction .main-col { padding-right: 10%; }
+
+.education, .work, .document {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#introduction .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#introduction .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#introduction .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+/* ------------------------------------------------------------------ */
+/* d.2. Research Section
+/* ------------------------------------------------------------------ */
+
+#research {
+   background: #fff;
+   overflow: hidden;
+}
+
+#research a, #research a:visited  { color: #11ABB0; }
+#research a:hover, #research a:focus { color: #313131; }
+
+#research h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#research h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#research h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#research .header-col { padding-top: 9px; }
+#research .main-col { padding-right: 10%; }
+
+.education, .work, .document {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#research .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#research .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#research .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+/* ------------------------------------------------------------------ */
+/* d.3. Ideation Section
+/* ------------------------------------------------------------------ */
+
+#ideation {
+   background: #fff;
+   overflow: hidden;
+}
+
+#ideation a, #ideation a:visited  { color: #11ABB0; }
+#ideation a:hover, #ideation a:focus { color: #313131; }
+
+#ideation h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#ideation h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#ideation h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#ideation .header-col { padding-top: 9px; }
+#ideation .main-col { padding-right: 10%; }
+
+.education, .work, .document {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#ideation .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#ideation .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#ideation .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
