@@ -51,7 +51,7 @@ class LinkNow extends Component {
 
         <section id="introduction">
 
-          <div className="row education">
+          <div className="row content">
 
             <div className="three columns header-col">
               <h1><span>Introduction</span></h1>
@@ -74,7 +74,7 @@ class LinkNow extends Component {
         </section>
 
         <section id="research">
-          <div className="row work">
+          <div className="row content">
             <div className="three columns header-col">
               <h1><span>Research</span></h1>
             </div>
@@ -125,7 +125,7 @@ class LinkNow extends Component {
         </section>
 
         <section id="ideation">
-          <div className="row work">
+          <div className="row content">
             <div className="three columns header-col">
               <h1><span>Ideation</span></h1>
             </div>

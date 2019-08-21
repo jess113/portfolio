@@ -22,7 +22,7 @@ let resumeData = {
         className:"fa fa-skype"
       }
     ],
-  aboutme:"I am currently finishing my B.S. in Human Centered Design and Engineering and B.A. in History.",
+  aboutme:"I am finishing my B.S. in Human Centered Design and Engineering and B.A. in History. I am currently focusing on UX design and component-based web development (React, JavaScript ES6, CSS3, HTML5, git, Firebase), as well as modern East Asian history and international relations.",
   address:"Seattle, Washington",
   education:[
     {
@@ -30,24 +30,38 @@ let resumeData = {
       specialization:"HCDE/History",
       MonthOfPassing:"June",
       YearOfPassing:"2021",
-      Achievements:"Interdisciplinary Honors Program, Honors in History"
+      Achievements:"Interdisciplinary Honors Program, Honors in History; Thomas M. Power Prize for outstanding undergraduate essay, Maurice D. and Lois M. Schawrtz Scholar in Non-Western History, and Larry Lee Sleizer Scholar in History"
     },
 
   ],
   work:[
     {
       CompanyName:"UW Department of HCDE",
-      specialization:"Researcher",
-      MonthOfLeaving:"August",
+      specialization:"Intern Researcher",
+      MonthOfLeaving:"Jun - Aug",
       YearOfLeaving:"2019",
-      Achievements:"Conducting user research for the HCDE Alumni Leadership Board"
+      Achievements:"Conducting user research on alumni experience for the HCDE Alumni Leadership Board"
     },
     {
       CompanyName:"UW Committee for China-US Dialogue",
       specialization:"Event Organizer/Liaison",
-      MonthOfLeaving:"Jan",
-      YearOfLeaving:"2019",
-      Achievements:"Organizing open lecture series for the 2019-20 academic year"
+      MonthOfLeaving:"",
+      YearOfLeaving:"Oct 2018 - present",
+      Achievements:"Coordinating and organizing open lecture series on Sino-US relations"
+    },
+    {
+      CompanyName:"Newbook Digital Text",
+      specialization:"UX/UI Intern",
+      MonthOfLeaving:"Sept 2018 -",
+      YearOfLeaving:"Apr 2019",
+      Achievements:"Overhauled the redesigned Svoboda Diaries project websites, also completed and supervised primary historical document transcription work"
+    },
+    {
+      CompanyName:"ByteDance",
+      specialization:"Content Operations Intern",
+      MonthOfLeaving:"June -",
+      YearOfLeaving:"Aug 2018",
+      Achievements:"Trained machine-learning algorithm for personalized content reccomendation on online news aggregation platform TopBuzz, also part of anti-fake news task force"
     }
   ],
   skillsDescription:"My skills:",

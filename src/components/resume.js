@@ -64,7 +64,7 @@ export default class Resume extends Component {
           </div>
         </div>
 
-        <div className="row document">
+ {/*        <div className="row document">
 
           <Document
             file="resume.pdf"
@@ -74,8 +74,7 @@ export default class Resume extends Component {
 
         </div>
 
-{/*
-        <div className="row skill">
+       <div className="row skill">
 
           <div className="three columns header-col">
             <h1><span>Skills</span></h1>
