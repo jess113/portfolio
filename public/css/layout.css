@@ -122,6 +122,8 @@ header .scrolldown a:hover { color: #11ABB0; }
 	 margin: 0;
 	 border: none;
     outline: none;
+    position: relative;
+    display: inline-block;
 }
 
 /* nav-wrap */
@@ -140,7 +142,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 ul#nav {
    min-height: 48px;
-   width: auto;
+   width: 100%;
    background:rgba(0,0,0,0.65);
    /* center align the menu */
    text-align: center;

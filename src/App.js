@@ -5,6 +5,7 @@ import Resume from './components/resume';
 import Portfolio from './components/portfolio';
 import Contact from './components/contact';
 import Footer from './components/footer';
+import ProjectFooter from './components/projectfooter';
 import './App.css';
 import "react-image-gallery/styles/css/image-gallery.css";
 import LinkNow from './pages/LinkNow';
@@ -31,6 +32,7 @@ class App extends Component {
           <Route exact={true} path='/LinkNow' render={() => (
             <div className="App">
               <LinkNow />
+              <ProjectFooter />
             </div>
           )}/>
           {/*<Route component={NotFound}/>

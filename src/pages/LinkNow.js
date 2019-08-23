@@ -7,7 +7,9 @@ import storyboard from './storyboard.png';
 import infoarch from './infoarch.png';
 import ImageGallery from 'react-image-gallery';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import Scrollspy from 'react-scrollspy'
+import Scrollspy from 'react-scrollspy';
+import { Link } from 'react-router-dom';
+
 
 /*navbar doesnt work unless changes made to section ids*/
 const navItems = ['introduction', 'research', 'ideation', 'protoype', 'reflection']
@@ -34,13 +36,13 @@ class LinkNow extends Component {
 
     return (
       <React.Fragment>
-
         <nav id="nav-wrap">
           <div className="mobile-btn"
             onClick={() => this.setState({ showMobileMenu: !showMobileMenu })}>
           </div>
           {/* <div className="mobile-btn" href="#" title="Hide navigation">Hide navigation</div> */}
           <ul id="nav" className={navClass}>
+          <Link to="/" style={{padding:'10px'}}>back</Link>
             <Scrollspy items={navItems} currentClassName="current">
               {navItems.map((item, i) => {
                 return <li key={i}><AnchorLink href={`#${item}`}>{capitalize(item)}</AnchorLink></li>
@@ -167,7 +169,7 @@ class LinkNow extends Component {
         </section>
 
       </React.Fragment>
-    )
+    );
   }
 }
 
