@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.95910566.chunk.css",
-    "main.js": "/portfolio/static/js/main.397cb4a6.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.397cb4a6.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.ceae5821.chunk.css",
+    "main.js": "/portfolio/static/js/main.1ac34dd9.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1ac34dd9.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/js/2.0ea00fcc.chunk.js": "/portfolio/static/js/2.0ea00fcc.chunk.js",
-    "static/js/2.0ea00fcc.chunk.js.map": "/portfolio/static/js/2.0ea00fcc.chunk.js.map",
+    "static/css/2.f74a8007.chunk.css": "/portfolio/static/css/2.f74a8007.chunk.css",
+    "static/js/2.0a6da252.chunk.js": "/portfolio/static/js/2.0a6da252.chunk.js",
+    "static/js/2.0a6da252.chunk.js.map": "/portfolio/static/js/2.0a6da252.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.ddb911c3be83f7e69e3ec995e1ec1600.js": "/portfolio/precache-manifest.ddb911c3be83f7e69e3ec995e1ec1600.js",
+    "precache-manifest.60fa1e25d05fb57463d240e8339ff63f.js": "/portfolio/precache-manifest.60fa1e25d05fb57463d240e8339ff63f.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.95910566.chunk.css.map": "/portfolio/static/css/main.95910566.chunk.css.map",
-    "static/media/App.css": "/portfolio/static/media/header.4317be93.jpg"
+    "static/css/2.f74a8007.chunk.css.map": "/portfolio/static/css/2.f74a8007.chunk.css.map",
+    "static/css/main.ceae5821.chunk.css.map": "/portfolio/static/css/main.ceae5821.chunk.css.map",
+    "static/media/LinkNow_logo.png": "/portfolio/static/media/LinkNow_logo.5b6b7b9d.png",
+    "static/media/companalysis.png": "/portfolio/static/media/companalysis.0d97212a.png",
+    "static/media/App.css": "/portfolio/static/media/header.fa7b2ac2.jpg",
+    "static/media/infoarch.png": "/portfolio/static/media/infoarch.6b61e343.png",
+    "static/media/journeymap.png": "/portfolio/static/media/journeymap.294f3428.png",
+    "static/media/persona1.png": "/portfolio/static/media/persona1.babfa416.png",
+    "static/media/persona2.png": "/portfolio/static/media/persona2.a1e6c806.png",
+    "static/media/profilepic.jpg": "/portfolio/static/media/profilepic.1931a401.jpg",
+    "static/media/storyboard.png": "/portfolio/static/media/storyboard.f9b413e1.png"
   }
 }
