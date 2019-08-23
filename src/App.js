@@ -9,13 +9,13 @@ import './App.css';
 import "react-image-gallery/styles/css/image-gallery.css";
 import LinkNow from './pages/LinkNow';
 import NotFound from './pages/404';
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 
 //
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter basename='/'>
         <div>
           <Switch>
           <Route exact={true} path='/' render={() => (
@@ -37,7 +37,7 @@ class App extends Component {
           <Redirect to="/404"/>*/}
           </Switch>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
