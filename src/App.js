@@ -33,8 +33,8 @@ class App extends Component {
               <LinkNow />
             </div>
           )}/>
-          <Route component={NotFound}/>
-          <Redirect to="/404"/>
+          {/*<Route component={NotFound}/>
+          <Redirect to="/404"/>*/}
           </Switch>
         </div>
       </BrowserRouter>
