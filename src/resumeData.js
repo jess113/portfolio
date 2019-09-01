@@ -1,6 +1,6 @@
 let resumeData = {
   name: "Jesse Du",
-  role: "aspiring UX Designer",
+  role: "aspiring UX Designer based in Seattle, WA",
   linkedinId:"jess113",
   skypeid: "Your skypeid",
   email: "jess113@uw.edu",
@@ -22,7 +22,7 @@ let resumeData = {
         className:"fa fa-skype"
       }
     ],
-  aboutme:"I am finishing my B.S. in Human Centered Design and Engineering and B.A. in History. I am currently focusing on UX design and component-based web development (React, JavaScript ES6, CSS3, HTML5, git, Firebase), as well as modern East Asian history and international relations.",
+  aboutme:"I am finishing my B.S. in Human Centered Design and Engineering and B.A. in History. I am currently focusing on UX design and component-based web development (React, JavaScript ES6, CSS3, HTML5, git, Firebase); For my History degree I am focusing on East Asian history and international relations.",
   address:"Seattle, Washington",
   education:[
     {
