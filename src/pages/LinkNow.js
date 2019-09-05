@@ -11,6 +11,10 @@ import wireframe1 from './wireframe1.png';
 import wireframe2 from './wireframe2.png';
 import wireframe3 from './wireframe3.png';
 import wireframe4 from './wireframe4.png';
+import hifi1 from './hifi1.png';
+import hifi2 from './hifi2.png';
+import hifi3 from './hifi3.png';
+import hifi4 from './hifi4.png';
 import reflection from './reflection.jpg';
 import ImageGallery from 'react-image-gallery';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
@@ -61,20 +65,20 @@ class LinkNow extends Component {
 
     const hifi = [
       {
-        original: 'https://static.wixstatic.com/media/bfc365_f159b326a1c74da7a2e101a9ce2f0adc~mv2_d_3368_2380_s_2.png/v1/fill/w_1129,h_798,al_c,q_85,usm_0.66_1.00_0.01/bfc365_f159b326a1c74da7a2e101a9ce2f0adc~mv2_d_3368_2380_s_2.webp',
-        thumbnail: 'https://static.wixstatic.com/media/bfc365_f159b326a1c74da7a2e101a9ce2f0adc~mv2_d_3368_2380_s_2.png/v1/fill/w_1006,h_711,al_c,q_90,usm_0.66_1.00_0.01/bfc365_f159b326a1c74da7a2e101a9ce2f0adc~mv2_d_3368_2380_s_2.webp',
+        original: hifi1,
+        thumbnail: hifi1,
       },
       {
-        original: 'https://static.wixstatic.com/media/bfc365_c35722da0e3a42e3be1b6885b284e9da~mv2_d_3368_2380_s_2.png/v1/fill/w_1006,h_711,al_c,q_90,usm_0.66_1.00_0.01/bfc365_c35722da0e3a42e3be1b6885b284e9da~mv2_d_3368_2380_s_2.webp',
-        thumbnail: 'https://static.wixstatic.com/media/bfc365_c35722da0e3a42e3be1b6885b284e9da~mv2_d_3368_2380_s_2.png/v1/fill/w_1006,h_711,al_c,q_90,usm_0.66_1.00_0.01/bfc365_c35722da0e3a42e3be1b6885b284e9da~mv2_d_3368_2380_s_2.webp',
+        original: hifi2,
+        thumbnail: hifi2,
       },
       {
-        original: 'https://static.wixstatic.com/media/bfc365_7caa141c9ad945888f27ff475f3232c3~mv2_d_3368_2380_s_2.png/v1/fill/w_1006,h_711,al_c,q_90,usm_0.66_1.00_0.01/bfc365_7caa141c9ad945888f27ff475f3232c3~mv2_d_3368_2380_s_2.webp',
-        thumbnail: 'https://static.wixstatic.com/media/bfc365_7caa141c9ad945888f27ff475f3232c3~mv2_d_3368_2380_s_2.png/v1/fill/w_1006,h_711,al_c,q_90,usm_0.66_1.00_0.01/bfc365_7caa141c9ad945888f27ff475f3232c3~mv2_d_3368_2380_s_2.webp',
+        original: hifi3,
+        thumbnail: hifi3,
       },
       {
-        original: 'https://static.wixstatic.com/media/bfc365_b6aded2296c14f56baa94a7b68baf34f~mv2_d_3368_2380_s_2.png/v1/fill/w_1006,h_711,al_c,q_90,usm_0.66_1.00_0.01/bfc365_b6aded2296c14f56baa94a7b68baf34f~mv2_d_3368_2380_s_2.webp',
-        thumbnail: 'https://static.wixstatic.com/media/bfc365_b6aded2296c14f56baa94a7b68baf34f~mv2_d_3368_2380_s_2.png/v1/fill/w_1006,h_711,al_c,q_90,usm_0.66_1.00_0.01/bfc365_b6aded2296c14f56baa94a7b68baf34f~mv2_d_3368_2380_s_2.webp',
+        original: hifi4,
+        thumbnail: hifi4,
       },
     ]
 
@@ -86,8 +90,8 @@ class LinkNow extends Component {
           </div>
           {/* <div className="mobile-btn" href="#" title="Hide navigation">Hide navigation</div> */}
           <ul id="nav" className={navClass}>
-            <Link to="/" style={{ padding: '10px' }}>back</Link>
-            <Scrollspy items={navItems} currentClassName="current">
+            <Link id="back" to="/" style={{ padding: '10px' }}>back</Link>
+            <Scrollspy id="list" items={navItems} currentClassName="current">
               {navItems.map((item, i) => {
                 return <li key={i}><AnchorLink href={`#${item}`}>{capitalize(item)}</AnchorLink></li>
               })}
