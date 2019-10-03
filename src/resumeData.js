@@ -54,7 +54,7 @@ let resumeData = {
       specialization:"Intern Researcher",
       MonthOfLeaving:"Jun - Aug",
       YearOfLeaving:"2019",
-      Achievements:"As a part of a two-month HCDE Direct Research Group I interviewed HCDE alumni for user research on post-graduation career experience. Using a variety of tools such as personas and journey maps, my group was able to identify points of improvement for the HCDE department. Together we compiled a topline report and presented our findings to the recently-established HCDE Alumni Leadership Board."
+      Achievements:"As a part of a two-month HCDE Direct Research Group I interviewed HCDE alumni for user research on post-graduation career experience for the recently-established HCDE Alumni Leadership Board. Using a variety of tools such as personas and journey maps, my group was able to identify points of improvement for the HCDE department. Together we compiled a topline report and presented our findings to the Board."
     },
     {
       CompanyName:"ByteDance",
