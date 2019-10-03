@@ -24,7 +24,7 @@ export default class Porfolio extends Component {
         <Link to="/LinkNow"><img src={logo1} title="LinkNow" alt="LinkNow" /></Link>
       </div>
       <div className="img">
-        <a href to="https://www.svobodadiariesproject.org/"><img src={logo3} title="Svoboda" alt="Svoboda" /></a>
+        <a href="https://www.svobodadiariesproject.org/" target="_blank"><img src={logo3} title="Svoboda" alt="Svoboda" /></a>
       </div>
       <div className="img">
         <Link to="/LinkNow"><img src={logo2} title="HCDE" alt="HCDE" /></Link>
