@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import resumeData from '../resumeData';
 import Modal from 'react-awesome-modal';
-import logo from './LinkNow_logo.png';
+import logo1 from './LinkNow_logo.png';
+import logo2 from './HCDE_logo.png';
 import { Link } from 'react-router-dom';
 
 export default class Porfolio extends Component {
@@ -19,11 +20,14 @@ export default class Porfolio extends Component {
     return (<section id="portfolio">
       <h1>My projects</h1>
       <div className="img">
-        <Link to="/LinkNow"><img src={logo} title="LinkNow" alt="LinkNow" /></Link>
+        <Link to="/LinkNow"><img src={logo1} title="LinkNow" alt="LinkNow" /></Link>
+      </div>
+      <div className="img">
+        <Link to="/LinkNow"><img src={logo2} title="HCDE" alt="HCDE" /></Link>
       </div>
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>A bunch of codes</h1>
+          <h1>My codes</h1>
           <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
             {
               resumeData.portfolio && resumeData.portfolio.map((item, i) => {
