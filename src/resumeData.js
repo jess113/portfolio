@@ -4,7 +4,7 @@ let resumeData = {
   linkedinId:"jess113",
   skypeid: "Your skypeid",
   email: "jess113@uw.edu",
-  roleDescription: "I am deeply interested in both UX design/research and history, currently exploring the intersections of two disparate disciplines.",
+  roleDescription: "I am deeply interested in both UX design/research and History, currently exploring the intersections of two disparate disciplines.",
   socialLinks:[
       {
         name:"linkedin",
@@ -22,7 +22,7 @@ let resumeData = {
         className:"fa fa-skype"
       }
     ],
-  aboutme:"I am finishing my B.S. in Human Centered Design and Engineering and B.A. in History. I am currently focusing on UX design and component-based web development (React, JavaScript ES6, Java SE12, Python 3, CSS3, HTML5, git, Firebase); For my History degree I am focusing on East Asian history and international relations.",
+  aboutme:"I am currently finishing my B.S. in Human Centered Design and Engineering and B.A. in History. I am focusing on UX design and component-based web development (React, JavaScript ES6, Java SE12, Python 3, CSS3, HTML5, git, Firebase); For my History degree I am focusing on East Asian history and international relations.",
   address:"Seattle, Washington",
   education:[
     {

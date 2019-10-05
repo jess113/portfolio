@@ -4,6 +4,7 @@ import Modal from 'react-awesome-modal';
 import logo1 from './LinkNow_logo.png';
 import logo2 from './HCDE_logo.png';
 import logo3 from './Svoboda_logo.png';
+import pdf from './HCDE report.pdf';
 import { Link } from 'react-router-dom';
 
 export default class Porfolio extends Component {
@@ -27,7 +28,7 @@ export default class Porfolio extends Component {
         <a href="https://www.svobodadiariesproject.org/" target="_blank"><img src={logo3} title="Svoboda" alt="Svoboda" /></a>
       </div>
       <div className="img">
-        <Link to="/LinkNow"><img src={logo2} title="HCDE" alt="HCDE" /></Link>
+        <a href = {pdf} target = "_blank"><img src={logo2} title="HCDE" alt="HCDE" /></a>
       </div>
       <div className="row">
         <div className="twelve columns collapsed">
