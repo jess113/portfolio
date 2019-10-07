@@ -20,19 +20,19 @@ export default class Porfolio extends Component {
   render() {
     const { modal } = this.state
     return (<section id="portfolio">
-      <h1>My projects</h1>
+      <h1>My Projects</h1>
       <div className="img">
-        <Link to="/LinkNow"><img src={logo1} title="LinkNow" alt="LinkNow" /></Link>
+        <Link to="/LinkNow"><img src={logo1} title="A user-centered design project" alt="LinkNow" /></Link>
       </div>
       <div className="img">
-        <a href="https://www.svobodadiariesproject.org/" target="_blank"><img src={logo3} title="Svoboda" alt="Svoboda" /></a>
+        <a href="https://www.svobodadiariesproject.org/" target="_blank"><img src={logo3} title="New website for Newbook Digital Text" alt="Svoboda" /></a>
       </div>
       <div className="img">
-        <a href = {pdf} target = "_blank"><img src={logo2} title="HCDE" alt="HCDE" /></a>
+        <a href = {pdf} target = "_blank"><img src={logo2} title="Research report for the Department of HCDE" alt="HCDE" /></a>
       </div>
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>My codes</h1>
+          <h1>My Codes</h1>
           <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
             {
               resumeData.portfolio && resumeData.portfolio.map((item, i) => {

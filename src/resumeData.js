@@ -2,7 +2,7 @@ let resumeData = {
   name: "Jesse Du",
   role: "aspiring UX Designer based in Seattle, WA",
   linkedinId:"jess113",
-  skypeid: "Your skypeid",
+  //skypeid: "Your skypeid",
   email: "jess113@uw.edu",
   roleDescription: "I am deeply interested in both UX design/research and History, currently exploring the intersections of two disparate disciplines.",
   socialLinks:[
@@ -17,20 +17,21 @@ let resumeData = {
         className:"fa fa-github"
       },
       {
-        name:"skype",
-        url:"http://skype.com",
-        className:"fa fa-skype"
+        name:"email",
+        url:"mailto:jess113@uw.edu",
+        className:"fa fa-envelope"
       }
     ],
-  aboutme:"I am currently finishing my B.S. in Human Centered Design and Engineering and B.A. in History. I am focusing on UX design and component-based web development (React, JavaScript ES6, Java SE12, Python 3, CSS3, HTML5, git, Firebase); For my History degree I am focusing on East Asian history and international relations.",
+  aboutme:"I am currently finishing my B.S. in Human Centered Design & Engineering (HCDE) and B.A. in History. I am focusing on UX design and research. For my History degree I am focusing on East Asian history and international relations.",
   address:"Seattle, Washington",
+  website:"jessedu.com",
   education:[
     {
       UniversityName:"University of Washington",
       specialization:"HCDE/History",
       MonthOfPassing:"June",
       YearOfPassing:"2021",
-      Achievements:"Currently double-majoring in Human Centered Design & Engineering and History, I am also in the Interdisciplinary Honors Program and Honors in History program. During my time at the UW I have been honoured to received the Thomas M. Power Prize for outstanding undergraduate essay, Maurice D. and Lois M. Schawrtz Scholarship in Non-Western History, Larry Lee Sleizer Scholarship in History and the Shih Chun and Mamie Kwoh Wang Endowed Scholarship."
+      Achievements:"Currently double-majoring in Human Centered Design & Engineering (HCDE) and History, I am also in the Interdisciplinary Honors Program and Honors in History program. During my time at the UW I have been honoured to received the Thomas M. Power Prize for outstanding undergraduate essay, Maurice D. and Lois M. Schawrtz Scholarship in Non-Western History, Larry Lee Sleizer Scholarship in History and the Shih Chun and Mamie Kwoh Wang Endowed Scholarship."
     },
 
   ],

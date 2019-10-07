@@ -9,10 +9,9 @@ import ProjectFooter from './components/projectfooter';
 import './App.css';
 import "react-image-gallery/styles/css/image-gallery.css";
 import LinkNow from './pages/LinkNow';
-import NotFound from './pages/404';
+//import NotFound from './pages/404';
 import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 
-//
 class App extends Component {
   render() {
     return (
