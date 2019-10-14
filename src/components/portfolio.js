@@ -21,14 +21,18 @@ export default class Porfolio extends Component {
     const { modal } = this.state
     return (<section id="portfolio">
       <h1>My Projects</h1>
-      <div className="img">
-        <Link to="/LinkNow"><img src={logo1} title="A user-centered design project" alt="LinkNow" /></Link>
-      </div>
-      <div className="img">
-        <a href="https://www.svobodadiariesproject.org/" target="_blank"><img src={logo3} title="New website for Newbook Digital Text" alt="Svoboda" /></a>
-      </div>
-      <div className="img">
-        <a href = {pdf} target = "_blank"><img src={logo2} title="Research report for the Department of HCDE" alt="HCDE" /></a>
+      <div className="row">
+        <div className="twelve columns collapsed">
+          <div className="project-column">
+            <Link to="/LinkNow"><img src={logo1} title="A user-centered design project" alt="LinkNow" /></Link>
+          </div>
+          <div className="project-column">
+            <a href="https://www.svobodadiariesproject.org/" target="_blank"><img src={logo3} title="New website for Newbook Digital Text" alt="Svoboda" /></a>
+          </div>
+          <div className="project-column">
+            <a href={pdf} target="_blank"><img src={logo2} title="Research report for the Department of HCDE" alt="HCDE" /></a>
+          </div>
+        </div>
       </div>
       <div className="row">
         <div className="twelve columns collapsed">

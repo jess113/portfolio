@@ -27,15 +27,17 @@ header {
   box-shadow: 3px 4px 24px -4px rgba(117,117,117,1);
 }
 
-.img img {
-  max-width: 100%;
+.project-column {
+  float:left;
+  max-width: 33.33%;
   max-height: 100%;
+  padding: 10px;
   margin-bottom: 50px;
   cursor: pointer;
   -webkit-transition: .2s all;
 }
 
-.img img:hover {
+.project-column:hover {
   -webkit-filter: brightness(50%);
 }
 

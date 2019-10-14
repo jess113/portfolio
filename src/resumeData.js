@@ -3,7 +3,7 @@ let resumeData = {
   role: "aspiring UX Designer based in Seattle, WA",
   linkedinId:"jess113",
   //skypeid: "Your skypeid",
-  email: "jess113@uw.edu",
+  email: "du.jesse@hotmail.com",
   roleDescription: "I am deeply interested in both UX design/research and History, currently exploring the intersections of two disparate disciplines.",
   socialLinks:[
       {
@@ -18,7 +18,7 @@ let resumeData = {
       },
       {
         name:"email",
-        url:"mailto:jess113@uw.edu",
+        url:"mailto:du.jesse@hotmail.com",
         className:"fa fa-envelope"
       }
     ],
