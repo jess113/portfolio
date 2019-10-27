@@ -3,7 +3,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Scrollspy from 'react-scrollspy'
 import resumeData from '../resumeData';
 
-const navItems = ['home', 'about', 'resume', 'portfolio', 'contact']
+const navItems = ['home', 'resume', 'portfolio', 'about']
 
 export default class Header extends Component {
 

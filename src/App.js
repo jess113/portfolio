@@ -21,10 +21,10 @@ class App extends Component {
           <Route exact={true} path='/' render={() => (
             <div className="App">
               <Header />
-              <About />
               <Resume />
               <Portfolio />
-              <Contact />
+              <About />
+              {/*<Contact />*/}
               <Footer />
             </div>
           )} />

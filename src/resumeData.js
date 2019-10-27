@@ -22,7 +22,7 @@ let resumeData = {
         className:"fa fa-envelope"
       }
     ],
-  aboutme:"I am currently finishing my B.S. in Human Centered Design & Engineering (HCDE) and B.A. in History. I am focusing on UX design and research. For my History degree I am focusing on East Asian history and international relations.",
+  aboutme:"Born and raised in Beijing, China, studied in Vancouver, BC, and now living in Seattle, WA, I'm currently finishing my B.S. in Human Centered Design & Engineering (HCDE) and B.A. in History. My main focus is in UX design but I'm also deeply interested in user research. For my History degree I am focusing on East Asia and international relations. For me as a double-major student, User Experience is the field where my passions for technology, design and the humanities can combine into one.",
   address:"Seattle, Washington",
   website:"jessedu.com",
   education:[
