@@ -8,7 +8,7 @@ import Footer from './components/footer';
 import ProjectFooter from './components/projectfooter';
 import './App.css';
 import "react-image-gallery/styles/css/image-gallery.css";
-import LinkNow from './pages/LinkNow';
+import LinkNow from './projects/LinkNow';
 //import NotFound from './pages/404';
 import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 

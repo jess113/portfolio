@@ -18,6 +18,12 @@ header {
   justify-content: space-between;
   align-items: left;
 }
+.modal-footer{
+  text-align: center;
+}
+.modal-footer button{
+  width:100%;
+} 
 
 .react-pdf__Page__canvas {
   margin: 0 auto;
@@ -44,18 +50,3 @@ header {
 .image-gallery {
   margin-bottom: 30px;
 }
-
-/* 
-.portfolio-modal{
-  padding:20px;
-  display:flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-}
-.modal-footer{
-  text-align: center;
-}
-.modal-footer button{
-  width:100px;
-} */

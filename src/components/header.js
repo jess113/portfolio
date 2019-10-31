@@ -48,7 +48,7 @@ export default class Header extends Component {
           </div>
 
           <p className="scrolldown">
-            <AnchorLink href="#about"><i className="icon-down-circle"></i></AnchorLink>
+            <AnchorLink href="#resume"><i className="icon-down-circle"></i></AnchorLink>
           </p>
 
         </header>

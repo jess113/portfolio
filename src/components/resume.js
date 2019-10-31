@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import resumeData from '../resumeData';
 import { Document, Page, pdfjs } from 'react-pdf';
+import pdf from './Resume_Jesse_Du.pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
@@ -38,7 +39,7 @@ export default class Resume extends Component {
         </div>
         <div className="row work">
           <div className="three columns header-col">
-            <h1><span>Work</span></h1>
+            <h1><span>Experience</span></h1>
           </div>
 
           <div className="nine columns main-col">
@@ -64,7 +65,7 @@ export default class Resume extends Component {
           </div>
         </div>
 
- {/*        <div className="row document">
+        {/*} <div className="row document">
 
           <Document
             file="resume.pdf"
@@ -72,9 +73,9 @@ export default class Resume extends Component {
             <Page pageNumber={2} />
           </Document>
 
-        </div>
+          </div>
 
-       <div className="row skill">
+        <div className="row skill">
 
           <div className="three columns header-col">
             <h1><span>Skills</span></h1>
@@ -109,8 +110,27 @@ export default class Resume extends Component {
 
           </div>
 
+        </div>*/}
+        <div className="row skill">
+
+          <div className="three columns header-col">
+            <h1><span>Resume</span></h1>
+          </div>  
+
+            <div className="nine columns main-col">
+                <div className="row item">
+                  <div className="twelve columns">
+                  <div class="columns download">
+                  <p>
+                     <a href= {pdf} class="button" style={{color: "white"}}><i class="fa fa-download"></i> Download Resume</a>
+                  </p>
+               </div>
+                  </div>
+                </div>
+            </div>
+          
         </div>
-              */}
+
       </section>
     );
   }
