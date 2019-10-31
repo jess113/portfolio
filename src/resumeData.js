@@ -65,21 +65,21 @@ let resumeData = {
       Achievements:"As part of a two-month internship at the Chinese internet technology company in Beijing I managed daily operations for the English section of international news and information content platform TopBuzz. I assisted in the training of machine-learning algorithms for personalized recommendation, and also identified fake news and low-quality content as part of a newly-created anti-fake news task force."
     }
   ],
-  skillsDescription:"My skills:",
-  skills:[
-    {
-      skillname:"Reactjs",
-      level:90,
-    },
-    {
-      skillname:"HTML5",
-      level:70,
-    },
-    {
-      skillname:"CSS",
-      level: 80,
-    },
-  ],
+  // skillsDescription:"My skills:",
+  // skills:[
+  //   {
+  //     skillname:"Reactjs",
+  //     level:90,
+  //   },
+  //   {
+  //     skillname:"HTML5",
+  //     level:70,
+  //   },
+  //   {
+  //     skillname:"CSS",
+  //     level: 80,
+  //   },
+  // ],
   portfolio_project:[
     {
       name:"LinkNow",
@@ -95,7 +95,7 @@ let resumeData = {
       imgurl:"images/portfolio/Svoboda_logo.png",
       title:"Svoboda Diaries Project",
       githubLink:"https://www.svobodadiariesproject.org/",
-      fullDescription:"Working on the Svoboda Diaries Project under Newbook Digital Texts, I was invovled in the redesign of the project website. The current website hosts a new diary viewer that allows users to read text transcriptions and scans of the original document side by side, as well as an event timeline to faciliate better experience in navigating through the numerous diaries."
+      fullDescription:"Working on the Svoboda Diaries Project under Newbook Digital Texts, I was involved in the redesign of the project website. The current website hosts a new diary viewer that allows users to read text transcriptions and scans of the original document side by side, as well as an event timeline to faciliate better experience in navigating through the numerous diaries."
     },
     {
       name:"HCDE Alumni Experience Study",
@@ -103,7 +103,7 @@ let resumeData = {
       imgurl:"images/portfolio/HCDE_logo.png",
       title:"HCDE Alumni Experience Study",
       githubLink:"images/portfolio/HCDE report.pdf",
-      fullDescription:"In our final report to the HCDE Alumni Leadership Board, my team presented the persona and journey map for recent HCDE graduates and their early-career experiences. Based on topline findings from interviews with the alumni, we reccommended specific actions aimed to improve alumni engagement and preparation for entering the workforce."
+      fullDescription:"In our final report to the HCDE Alumni Leadership Board, my team presented the persona and journey map for recent HCDE graduates from our 2-month study. Based on topline findings from interviews with the alumni, we reccommended specific actions aimed to improve alumni engagement and preparation for entering the workforce."
     },
   ],
   portfolio_code:[
@@ -112,8 +112,8 @@ let resumeData = {
       description:"chat app",
       imgurl:"images/portfolio/outchat.png",
       title:"OutChat",
-      githubLink:"https://github.com/jess113/OutChat",
-      fullDescription:"A real-time interactive chat app built with React, including instant messaging, photo, username, and delete functions, with responsible UI; the app is currently hosted on Firebase at https://outchat-hcde.firebaseapp.com."
+      githubLink:"https://outchat-hcde.firebaseapp.com/",
+      fullDescription:"This is an outrun-themed real-time interactive messaging app I built with React with responsible UI, functions includes instant messaging and photo sharing, username setting, and delete history; the app is currently hosted on Firebase."
     },
     {
       name:"WeatherCrawler",
