@@ -4,7 +4,7 @@ let resumeData = {
   linkedinId:"jess113",
   //skypeid: "Your skypeid",
   email: "du.jesse@hotmail.com",
-  roleDescription: "Deeply interested in both UX design/research and History, I'm currently exploring the intersections of two disparate disciplines.",
+  roleDescription: "Deeply interested in both User Experience and History, I'm currently exploring the intersections of two disparate disciplines.",
   socialLinks:[
       {
         name:"linkedin",

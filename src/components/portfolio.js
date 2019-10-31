@@ -102,7 +102,7 @@ export default class Porfolio extends Component {
               See more
           </a>*/}
           </div>
-          <form method="get" action={modal.githubLink}>
+          <form method="get" action={modal.githubLink} target="_blank">
             <button style={{width: "100%"}}>See more</button>
           </form>
         </div>
