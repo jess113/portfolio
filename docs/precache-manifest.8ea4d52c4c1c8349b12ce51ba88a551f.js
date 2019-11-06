@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3e35c877c82dd34b3fe797072a22fcd4",
+    "revision": "4690c9b26ca870a9d5bb1a8f4681729e",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.f74a8007.chunk.css"
   },
   {
-    "revision": "2c8f8cf99e7fa38525fd",
+    "revision": "31a610beb504b63cb196",
     "url": "/portfolio/static/css/main.9dc3743f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.c07ffe19.chunk.js"
   },
   {
-    "revision": "2c8f8cf99e7fa38525fd",
-    "url": "/portfolio/static/js/main.58c0a4dd.chunk.js"
+    "revision": "31a610beb504b63cb196",
+    "url": "/portfolio/static/js/main.ef91eadf.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Long_LinkNow_logo.859e9069.png"
   },
   {
-    "revision": "b628a67a702ebf52a0d114510688a494",
-    "url": "/portfolio/static/media/Resume_Jesse_Du.b628a67a.pdf"
+    "revision": "9001a0e757b4678c2343081e5aa32b2b",
+    "url": "/portfolio/static/media/Resume_Jesse_Du.9001a0e7.pdf"
   },
   {
     "revision": "0d97212a7c7869a0c272a63b8b02403e",
