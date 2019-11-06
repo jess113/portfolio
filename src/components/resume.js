@@ -123,7 +123,7 @@ export default class Resume extends Component {
                   <div class="columns download">
                   <p>
                      <a href= {pdf} target="_blank" class="button" style={{color: "white"}}>
-                       <i class="fa fa-download"></i>
+                       {/* <i class="fa fa-download"></i> */}
                        Download Resume
                      </a>
                   </p>
