@@ -41,7 +41,7 @@ let resumeData = {
       specialization:"UX/UI Intern",
       MonthOfLeaving:"Sept 2018 - present",
       YearOfLeaving:"",
-      Achievements:"Working with students and faculty at the University of Washington under the Newbook Digital Texts digital humanities initiative, I initially worked on the Svoboda Diaries Project as Historical Research Intern, organizing and transcribing primary source historical documents from 19th century Ottoman Iraq for open-access digital publication. Now as a technology intern on the project's UX/UI team, I took part in the overhaul and redesign of old project websites; I now work with fellow teammates to maintain the new website and continue to develop new human-centred features, we also interview digital humanities scholars and historians for user research."
+      Achievements:"Working with students and faculty at the University of Washington under the Newbook Digital Texts digital humanities initiative, I initially worked on the Svoboda Diaries Project as Historical Research Intern, organizing and transcribing primary source historical documents from 19th century Ottoman Iraq for open-access digital publication. Now as a technology intern on the project's UX/UI team, I took part in the overhaul and redesign of old project websites. I'm currently working with fellow teammates to maintain the new website and continue to develop new human-centred features; I am in charge of conducting usability tests on the website and interviews for user research."
     },
     // {
     //   CompanyName:"UW Committee for China-US Dialogue",
@@ -109,7 +109,7 @@ let resumeData = {
   portfolio_code:[
     {
       name:"OutChat",
-      description:"chat app",
+      description:"messaging app",
       imgurl:"images/portfolio/outchat.png",
       title:"OutChat",
       githubLink:"https://outchat-hcde.firebaseapp.com/",
