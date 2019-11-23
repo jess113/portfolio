@@ -9,6 +9,7 @@ import ProjectFooter from './components/projectfooter';
 import './App.css';
 import "react-image-gallery/styles/css/image-gallery.css";
 import LinkNow from './projects/LinkNow';
+import SPM from './projects/SPM';
 //import NotFound from './pages/404';
 import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 
@@ -31,6 +32,12 @@ class App extends Component {
           <Route exact={true} path='/LinkNow' render={() => (
             <div className="App">
               <LinkNow />
+              <ProjectFooter />
+            </div>
+          )}/>
+          <Route exact={true} path='/SPM' render={() => (
+            <div className="App">
+              <SPM />
               <ProjectFooter />
             </div>
           )}/>

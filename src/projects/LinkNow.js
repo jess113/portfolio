@@ -144,7 +144,7 @@ class LinkNow extends Component {
                     </ul>
                     <h3>Competitive Analysis</h3>
                     <p>
-                      We decided to look at all platforms that our interviewees used to find volunteering opportunities and research other applications that were popular in this space. We review the official websites of the United Way of King County, VolunteerMatch, Handshake, and the Golden Volunteer mobile application. After analyzing their features we could identify what was working for these applications and more importantly what was wrong with them. Linking these pain points back to our findings from the user interviews allowed us to start focusing in on our problem space.
+                      We look at all platforms that our interviewees used to find volunteering opportunities and research other applications that are popular in this space. We review the official websites of the United Way of King County, VolunteerMatch, Handshake, and the Golden Volunteer mobile application. After analyzing their features we could identify what's working for these applications and more importantly what was wrong with them. Linking these pain points back to our findings from the user interviews allow us to start focusing in on our problem space.
                   </p>
                     <img src={companalysis} title="Competitive Analysis" alt="ca" style={{marginBottom: 30}}/>
                     <h6>Takeaways</h6>

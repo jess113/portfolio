@@ -22,7 +22,7 @@ export default class Porfolio extends Component {
     return (<section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>My Projects</h1>
+          <h1>My Design Projects</h1>
           {/*<div className="row">
         <div className="twelve columns collapsed">
           <div className="project-column">
@@ -61,7 +61,7 @@ export default class Porfolio extends Component {
       </div>
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>My Codes</h1>
+          <h1>My Coding Projects</h1>
           <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
             {
               resumeData.portfolio_code && resumeData.portfolio_code.map((item, i) => {

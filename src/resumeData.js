@@ -83,19 +83,27 @@ let resumeData = {
   portfolio_project:[
     {
       name:"LinkNow",
-      description:"volunteering app",
+      description:"product design",
       imgurl:"images/portfolio/LinkNow_logo.png",
       title:"LinkNow",
       githubLink:"https://jess113.github.io/portfolio/#/LinkNow",
-      fullDescription:"LinkNow is an app development project running through the full user-centered design cycle, from research to prototyping. Working in a student team of four for two months, the result of a 2-month collaboration is a mobile platform for potential volunteers and local volunteering organizations aimed to encourage more volunteering by bettering the volunteer searching experience."
+      fullDescription:"LinkNow is an app development project running through the full user-centered design cycle, from user research to hi-fidelity prototype. Working in a student team of four for two months, the result of a 2-month collaboration is a mobile platform for potential volunteers and local volunteering organizations aimed to encourage more volunteering by bettering the volunteer searching experience."
+    },
+    {
+      name:"Seattle Pinball Museum",
+      description:"visual design",
+      imgurl:"images/portfolio/SPM_logo.png",
+      title:"Seattle Pinball Museum",
+      githubLink:"https://jess113.github.io/portfolio/#/SPM",
+      fullDescription:"This rebranding for the Seattle Pinball Museum is an exercise in designing a cohesive visual system, including logo, iconography, typography, imagery, color, and composition. Starting from user research, I designed these elements in phases, integrated them into a 3-screen flow for a potential mobile app, and finally developed a complete brand book for presentation."
     },
     {
       name:"Svoboda Diaries Project",
-      description:"project website",
+      description:"web design",
       imgurl:"images/portfolio/Svoboda_logo.png",
       title:"Svoboda Diaries Project",
       githubLink:"https://www.svobodadiariesproject.org/",
-      fullDescription:"Working on the Svoboda Diaries Project under Newbook Digital Texts, I was involved in the redesign of the project website. The current website hosts a new diary viewer that allows users to read text transcriptions and scans of the original document side by side, as well as an event timeline to faciliate better experience in navigating through the numerous diaries."
+      fullDescription:"Working on the Svoboda Diaries Project under Newbook Digital Texts, I'm involved in the redesign of the project website. The current website hosts a new diary viewer that allows users to read text transcriptions and scans of the original document side by side, as well as an event timeline to faciliate better experience in navigating through the numerous diaries."
     },
     {
       name:"HCDE Alumni Experience Study",
@@ -103,22 +111,22 @@ let resumeData = {
       imgurl:"images/portfolio/HCDE_logo.png",
       title:"HCDE Alumni Experience Study",
       githubLink:"images/portfolio/HCDE report.pdf",
-      fullDescription:"In our final report to the HCDE Alumni Leadership Board, my team presented the persona and journey map for recent HCDE graduates from our 2-month study. Based on topline findings from interviews with the alumni, we reccommended specific actions aimed to improve alumni engagement and preparation for entering the workforce."
+      fullDescription:"In a final report to the HCDE Alumni Leadership Board, my team presented the persona and journey map for recent HCDE graduates from our 2-month study. Based on topline findings from interviews with the alumni, we reccommended specific actions aimed to improve alumni engagement and preparation for entering the workforce."
     },
   ],
   portfolio_code:[
     {
       name:"OutChat",
       description:"messaging app",
-      imgurl:"images/portfolio/outchat.png",
+      imgurl:"images/portfolio/OutChat_logo.png",
       title:"OutChat",
       githubLink:"https://outchat-hcde.firebaseapp.com/",
-      fullDescription:"This is an outrun-themed real-time interactive messaging app I built with React with responsible UI, functions includes instant messaging and photo sharing, username setting, and delete history; the app is currently hosted on Firebase."
+      fullDescription:"This is an outrun-themed real-time interactive messaging app I built in React with responsible UI; functions includes instant messaging and photo sharing, username setting, and delete history. The app is currently hosted on Firebase."
     },
     {
       name:"WeatherCrawler",
       description:"search app",
-      imgurl:"images/portfolio/weathercrawler.png",
+      imgurl:"images/portfolio/React_logo.png",
       title:"WeatherCrawler",
       githubLink:"https://github.com/jess113/WeatherCrawler",
       fullDescription:"An online search engine that uses OpenWeatherMap to return temperature forecast for cities around the world."
@@ -126,7 +134,7 @@ let resumeData = {
     {
       name:"MemeCrawler",
       description:"search app",
-      imgurl:"images/portfolio/memecrawler.png",
+      imgurl:"images/portfolio/React_logo.png",
       title:"MemeCrawler",
       githubLink:"https://github.com/jess113/MemeCrawler",
       fullDescription:"An online search engine that uses GIPHY to return gifs."
