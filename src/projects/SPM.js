@@ -44,7 +44,7 @@ class SPM extends Component {
 
         <img src={logo} title="A visual design exercise" alt="SPM" />
         <section id="introduction">
-          <div className="row content">
+          <div className="row top-content">
             <div className="three columns header-col">
               <h1><span>Introduction</span></h1>
             </div>
@@ -138,7 +138,7 @@ class SPM extends Component {
         </section>
 
         <section id="prototype">
-          <div className="row content">
+          <div className="row bottom-content">
             <div className="three columns header-col">
               <h1><span>Prototype</span></h1>
             </div>

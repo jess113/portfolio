@@ -290,7 +290,6 @@ ul#nav li.current a { color: #F06000; }
 
 #introduction {
    background: #fff;
-   padding-top:90px;
    overflow: hidden;
 }
 
@@ -313,10 +312,10 @@ ul#nav li.current a { color: #F06000; }
 #introduction .header-col { padding-top: 9px; }
 #introduction .main-col { padding-right: 10%; }
 
-.content {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+.top-content {
+   margin-top: 30px;
+   padding-top: 60px;
+   border-top: 0p;
 }
 #introduction .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -362,9 +361,9 @@ ul#nav li.current a { color: #F06000; }
 #research .main-col { padding-right: 10%; }
 
 .content {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+   margin-top: 24px;
+   padding-top: 48px;
+   border-top: 1px solid #E8E8E8;
 }
 #research .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -410,9 +409,9 @@ ul#nav li.current a { color: #F06000; }
 #ideation .main-col { padding-right: 10%; }
 
 .content {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+   margin-top: 24px;
+   padding-top: 48px;
+   border-top: 1px solid #E8E8E8;
 }
 #ideation .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -458,9 +457,9 @@ ul#nav li.current a { color: #F06000; }
 #prototype .main-col { padding-right: 10%; }
 
 .content {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+   margin-top: 24px;
+   padding-top: 48px;
+   border-top: 1px solid #E8E8E8;
 }
 #prototype .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -506,6 +505,9 @@ ul#nav li.current a { color: #F06000; }
 #reflection .main-col { padding-right: 10%; }
 
 .bottom-content {
+   margin-top: 24px;
+   padding-top: 48px;
+   border-top: 1px solid #E8E8E8;
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 0px;

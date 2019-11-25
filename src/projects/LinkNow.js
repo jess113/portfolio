@@ -102,7 +102,7 @@ class LinkNow extends Component {
 
         <img src={logo} title="A user-centered design project" alt="LinkNow" />
         <section id="introduction">
-          <div className="row content">
+          <div className="row top-content">
             <div className="three columns header-col">
               <h1><span>Introduction</span></h1>
             </div>
