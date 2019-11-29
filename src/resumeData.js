@@ -93,7 +93,7 @@ let resumeData = {
       name:"Seattle Pinball Museum Brand Book",
       description:"visual design",
       imgurl:"images/portfolio/SPM_logo.png",
-      title:"Seattle Pinball Museum",
+      title:"Seattle Pinball Museum Brand Book",
       githubLink:"https://jess113.github.io/portfolio/#/SPM",
       fullDescription:"This rebranding for the Seattle Pinball Museum is an exercise in designing a cohesive visual system, including logo, iconography, typography, imagery, color, and composition. Starting from user research, I designed these elements in phases, integrated them into a 3-screen flow for a potential mobile app, and finally developed a complete brand book for presentation."
     },

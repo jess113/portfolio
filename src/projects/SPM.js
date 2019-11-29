@@ -184,7 +184,7 @@ class SPM extends Component {
         </section>
 
         <section id="prototype">
-          <div className="row bottom-content">
+          <div className="row content">
             <div className="three columns header-col">
               <h1><span>Prototype</span></h1>
             </div>
