@@ -20,7 +20,6 @@ import reflection from './images/reflection.jpg';
 import ImageGallery from 'react-image-gallery';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Scrollspy from 'react-scrollspy';
-import { Link } from 'react-router-dom';
 
 
 const navItems = ['introduction', 'research', 'ideation', 'prototype', 'reflection']
@@ -153,13 +152,13 @@ class LinkNow extends Component {
                       <li><span>• </span>No variety of opportunities</li>
                       <li><span>• </span>Confusing search process hampers the user experience</li>
                     </ul>
-                    <h3>Personas & Journey Map</h3>
+                    <h3>Personas &amp; Journey Map</h3>
                     <p>
-                      Based on our accumulated research, we decide to create two personas, Anna and Bob, to represent the two main types of student volunteers in our user group—active and passive. By creating these two fictional characters, we could establish “the user” and solidify their different pain-points to help develop our product around. The scenario outlines for our personas guided us through creating our Journey map in the next step.
+                      Based on our accumulated research, we decide to create two personas, Anna and Bob, to represent the two main types of student volunteers in our user group—active and passive. By creating these two fictional characters, we can establish “the user” and solidify their different pain-points to help develop our product around. The scenario outlines for our personas guided us through creating our Journey map in the next step.
                   </p>
                     <ImageGallery items={personas} showPlayButton={false} showFullscreenButton={false}/>
                     <p>
-                      We built our journey map around our persona Anna's scenario. This journey follows Anna in her pursuit of finding a volunteering opportunity. It takes a comprehensive look into all the methods and platforms she interacts with in order to find a volunteering position that fits her needs. The map is based on the experiences of our interviewees (01),  although we did make assumptions in places about what was going through Anna's head and about her emotional state. By capturing the step-by-step touchpoints along Anna’s experience, we can empathize with her. Simultaneously, we can map out the areas of high stress to better inform our design. This process was crucial in developing our design requirements as we now knew what areas to target.
+                      We build our journey map around our persona Anna's scenario. This journey follows Anna in her pursuit of finding a volunteering opportunity. It takes a comprehensive look into all the methods and platforms she interacts with in order to find a volunteering position that fits her needs. The map is based on the experiences of our interviewees (01),  although we did make assumptions in places about what was going through Anna's head and about her emotional state. By capturing the step-by-step touchpoints along Anna’s experience, we can empathize with her. Simultaneously, we can map out the areas of high stress to better inform our design. This process was crucial in developing our design requirements as we now knew what areas to target.
                   </p>
                     <img src={journey} title="Journey Map" alt="jm" style={{marginBttom: 30}}/>
                     <h6>Takeaways</h6>
@@ -186,7 +185,7 @@ class LinkNow extends Component {
                   <div className="twelve columns">
                     <h3>Design Requirements</h3>
                     <p>
-                      As the culmination of our research, the design requirements outline what our product will be containing. After identifying user needs, the shortcomings of existing products, and the problems facing the volunteering community, we developed a list of important features that our product would have in order to address these challenges. We came up with ten specific requirements, broken down following the action-object-context and data-functional-contextual methods. Based on the feedback we received, we further refined this list into the 6 most essential design requirements. This process helped us solidify the pain points we were going to tackle through our designs.
+                      As the culmination of our research, the design requirements outline what our product will be containing. After identifying user needs, the shortcomings of existing products, and the problems facing the volunteering community, we develop a list of important features that our product would have in order to address these challenges. We come up with ten specific requirements, broken down following the action-object-context and data-functional-contextual methods. Based on the feedback we have received, we further refine this list into the 6 most essential design requirements. This process helps us to solidify the pain points we are going to tackle through our designs.
                     </p>
                     <h6>Requirements</h6>
                     <ul>
@@ -204,11 +203,11 @@ class LinkNow extends Component {
                     <img src={storyboard} title="Storyboard" alt="sb" style={{marginBottom: 30}}/>
                     <h3>Information Architecture</h3>
                     <p>
-                      Following our storyboards, we created an information architecture diagram to map out the high-level components and hierarchical relationships of our system. Creating an Information Architecture helped us visualize the overall flow of our application. We took all the ideas we had in our storyboards and created an interconnected flow of our design solution. Mapping out all possible state changes reminded us of other interface interactions we still needed to design.
+                      Following our storyboards, we create an information architecture diagram to map out the high-level components and hierarchical relationships of our system. Creating an Information Architecture helps us to visualize the overall flow of our application. We take all the ideas we have had in our storyboards and create an interconnected flow of our design solution. Mapping out all possible state changes reminds us of other interface interactions we still need to design.
                     </p>
                     <img src={infoarch} title="Information Architecture" alt="ia" style={{marginBottom: 30}}/>
                     <p>
-                      Initially, we decided to create two sides of our application, one pertaining to Volunteers and the other to organizations that provide these opportunities. Through this process, we realized that to do justice to our project given the timeline it would be unviable to design for both sides and hence we refined our application to focus just on Volunteers. This decision was essential in the success of our project.
+                      Initially, we have decided to create two sides of our application, one pertaining to Volunteers and the other to organizations that provide these opportunities. Through this process, we realize that to do justice to our project given the timeline it would be unviable to design for both sides and hence we refine our application to focus just on Volunteers. This decision is essential in the success of our project.
                   </p>
                   </div>
                 </div>
@@ -228,19 +227,19 @@ class LinkNow extends Component {
                   <div className="twelve columns">
                     <h3>Paper Prototype</h3>
                     <p>
-                      Utilizing our Information Architecture and combining our vision from our storyboards we were able to identify three key user flows. Combining this knowledge with our Interface Sketches, we transformed these user pathways into paper prototypes. We spent a lot of time whiteboarding our ideas and sketching out how the interactions between these screens would flow. Listed below are the three user tasks.
+                      Utilizing our Information Architecture and combining our vision from our storyboards we are able to identify three key user flows. Combining this knowledge with our Interface Sketches, we transform these user pathways into paper prototypes. We spend a lot of time whiteboarding our ideas and sketching out how the interactions between these screens would flow. Listed below are the three user tasks.
                     </p>
                     <img src={paperproto} title="Paper Prototype" alt="pp" style={{marginBottom: 30}}/>
                     <h3>Usability Testing</h3>
                     <p>
-                      After gaining feedback on our paper prototypes we polished them to be used in our usability tests. This study was conducted in order to evaluate the preliminary designs of our LinkNow application. We conducted our tests with 7 different users, each carrying out the three tasks listed above. The usability test was the most crucial feature in identifying our internal biases and assumption in terms of user interface and experience. This would allow us to gain valuable feedback and insights directly from our user group in order to improve clarity and eliminate unnecessary functions. It also helped inform modifications and our design choices as we transformed our paper prototypes into wireframes.
+                      After gaining feedback on our paper prototypes we polish them to be used in our usability tests. This study is conducted in order to evaluate the preliminary designs of our LinkNow application. We conduct our tests with seven different users, each carrying out the three tasks listed above. The usability test is the most crucial feature in identifying our internal biases and assumption in terms of user interface and experience. This would allow us to gain valuable feedback and insights directly from our user group in order to improve clarity and eliminate unnecessary functions. It also helps to inform modifications and our design choices as we transformed our paper prototypes into wireframes.
                     </p>
                     <p>
-                      For each test, the user had to complete one user path flow that had a completion criterion. We also asked a set of pre and post-test questions that acted as a second round of user research. This was essential as throughout our process we tweaked the direction of our application and wanted to ensure that we were still on track. The post interview questions also gave us an opportunity to understand user problems and extract design recommendations from them.
+                      For each test, the user has to complete one user path flow that has a completion criterion. We also ask a set of pre- and post-test questions that acts as a second round of user research. This is essential as throughout our process we tweak the direction of our application and want to ensure that we were still on track. The post-interview questions also give us an opportunity to understand user problems and extract design recommendations from them.
                     </p>
                     <h6>Takeaways</h6>
                     <ul>
-                      <li><span>• </span>Didn’t understand “Connect to Facebook” in setting up profile</li>
+                      <li><span>• </span>Don’t understand “Connect to Facebook” in setting up profile</li>
                       <li><span>• </span>Hard to navigate “Time Slot Availability”</li>
                       <li><span>• </span>Inconsistent interface</li>
                       <li><span>• </span>Confusing iconography for “Groups” and “My Events”</li>
@@ -248,12 +247,12 @@ class LinkNow extends Component {
                     </ul>
                     <h3>Wireframes</h3>
                     <p>
-                    Using our paper Protytopes as a key reference point and sorting through all our learnings from our usability tests we developed annotated wireframes for LinkNow. This was an integral part for the UI of our system as essential choices relating to, layouts, design patterns, typography, and iconography were made. We created annotated wireframes for our entire system which helped us gain a better overview of what our final product was going to look like. The wireframes acted as building blocks for our final high fidelity mockups. 
+                    Using our paper Protytopes as a key reference point and sorting through all our learnings from our usability tests we develop annotated wireframes for LinkNow. This is an integral part for the UI of our system as essential choices relating to, layouts, design patterns, typography, and iconography are made. We create annotated wireframes for our entire system which help us to gain a better overview of what our final product is going to look like. The wireframes act as building blocks for our final high fidelity mockups. 
                     </p>
                     <ImageGallery items={wireframes} showPlayButton={false} showFullscreenButton={false}/>
                     <h3>High-fidelity Mockups</h3>
                     <p>
-                    Finally, we took our wireframes along with the feedback we received on it and created our high fidelity mockups. These screens represented the most essential functionality of each user task flow: The Time Slot Availability, Home Screen and Groups Page. After a round of in-class critique, we had the final version of our mockups that displayed fully developed stills from our application demonstrating what it would look and feel like in a working environment. The main barrier we overcame in the process was deciding the color scheme, typography style, and weight to create an effective visual hierarchy.  
+                    Finally, we take our wireframes along with the feedback we received on it and create our high fidelity mockups. These screens represent the most essential functionality of each user task flow: the Time Slot Availability, Home Screen and Groups Page. After a round of in-class critique, we have the final version of our mockups that displays fully developed stills from our application demonstrating what it would look and feel like in a working environment. The main barrier we have to overcome in the process is deciding the color scheme, typography style, and weight to create an effective visual hierarchy.  
                     </p>
                     <ImageGallery items={hifi} showPlayButton={false} showFullscreenButton={false}/>
                   </div>

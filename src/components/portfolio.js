@@ -5,7 +5,6 @@ import Modal from 'react-awesome-modal';
 //import logo2 from './HCDE_logo.png';
 //import logo3 from './Svoboda_logo.png';
 //import pdf from './HCDE report.pdf';
-import { Link } from 'react-router-dom';
 
 export default class Porfolio extends Component {
 
