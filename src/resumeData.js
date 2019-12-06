@@ -121,15 +121,15 @@ let resumeData = {
       imgurl:"images/portfolio/OutChat_logo.png",
       title:"OutChat",
       githubLink:"https://outchat-hcde.firebaseapp.com/",
-      fullDescription:"This is an outrun-themed real-time interactive messaging app I built in React with responsible UI; functions includes instant messaging and photo sharing, username setting, and delete history. The app is currently hosted on Firebase."
+      fullDescription:"This is an outrun-themed real-time interactive messaging program I built in React with responsible UI; functions includes instant messaging and photo sharing, username setting, and delete history. The program is currently hosted on Firebase."
     },
     {
-      name:"WeatherCrawler",
-      description:"search app",
-      imgurl:"images/portfolio/React_logo.png",
-      title:"WeatherCrawler",
-      githubLink:"https://github.com/jess113/WeatherCrawler",
-      fullDescription:"An online search engine that uses OpenWeatherMap to return temperature forecast for cities around the world."
+      name:"BillBot",
+      description:"API app",
+      imgurl:"images/portfolio/BillBot_logo.png",
+      title:"BillBot",
+      githubLink:"https://billbot-310.appspot.com/",
+      fullDescription:"This a program I wrote in Python that writes Wikipedia article for US Congressional bills. At the current stage, the program searches for a specific legislation by its ID and uses data from the ProPublica Congress API to produce a summary in Wikitext format, which the user can directly copy and paste into Wikipedia and create the new article. The program is currently hosted on Google App Engine."
     },
     {
       name:"MemeCrawler",
