@@ -114,7 +114,7 @@ class LinkNow extends Component {
                   </p>
                   <img src={introduction} title="Introduction" alt="in" style={{marginBottom: 30}}/>
                     <p>
-                      This project was completed over nine weeks as part of an undergraduate course on User-Centered Design in the Human Centered Design and Engineering department at the University of Washington in Spring 2019.
+                      This project was completed over nine weeks as part of an undergraduate course on User-Centered Design in the Human Centered Design &amp; Engineering department at the University of Washington in Spring 2019.
                   </p>
                   </div>
                 </div>
@@ -152,14 +152,15 @@ class LinkNow extends Component {
                       <li><span>• </span>No variety of opportunities</li>
                       <li><span>• </span>Confusing search process hampers the user experience</li>
                     </ul>
-                    <h3>Personas &amp; Journey Map</h3>
+                    <h3>Personas</h3>
                     <p>
                       Based on our accumulated research, we decide to create two personas, Anna and Bob, to represent the two main types of student volunteers in our user group—active and passive. By creating these two fictional characters, we can establish “the user” and solidify their different pain-points to help develop our product around. The scenario outlines for our personas guided us through creating our Journey map in the next step.
-                  </p>
+                    </p>
                     <ImageGallery items={personas} showPlayButton={false} showFullscreenButton={false}/>
+                    <h3>Journey Map</h3>
                     <p>
-                      We build our journey map around our persona Anna's scenario. This journey follows Anna in her pursuit of finding a volunteering opportunity. It takes a comprehensive look into all the methods and platforms she interacts with in order to find a volunteering position that fits her needs. The map is based on the experiences of our interviewees (01),  although we did make assumptions in places about what was going through Anna's head and about her emotional state. By capturing the step-by-step touchpoints along Anna’s experience, we can empathize with her. Simultaneously, we can map out the areas of high stress to better inform our design. This process was crucial in developing our design requirements as we now knew what areas to target.
-                  </p>
+                      We build our journey map around our persona Anna's scenario. This journey follows Anna in her pursuit of finding a volunteering opportunity. It takes a comprehensive look into all the methods and platforms she interacts with in order to find a volunteering position that fits her needs. The map is based on the experiences of our interviewees, although we did make assumptions in places about what was going through Anna's head and about her emotional state. By capturing the step-by-step touchpoints along Anna’s experience, we can empathize with her. Simultaneously, we can map out the areas of high stress to better inform our design. This process was crucial in developing our design requirements as we now knew what areas to target.
+                    </p>
                     <img src={journey} title="Journey Map" alt="jm" style={{marginBttom: 30}}/>
                     <h6>Takeaways</h6>
                     <ul>

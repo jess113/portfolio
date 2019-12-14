@@ -31,7 +31,7 @@ let resumeData = {
       specialization:"HCDE/History",
       MonthOfPassing:"June",
       YearOfPassing:"2021",
-      Achievements:"Currently double-majoring in Human Centered Design & Engineering (HCDE) and History, I'm also in the Interdisciplinary Honors Program and Honors in History program. During my time at the UW I have been honoured to received the Thomas M. Power Prize for outstanding undergraduate essay, Maurice D. and Lois M. Schawrtz Scholarship in Non-Western History, Larry Lee Sleizer Scholarship in History and the Shih Chun and Mamie Kwoh Wang Endowed Scholarship."
+      Achievements:"Currently double-majoring in Human Centered Design & Engineering (HCDE) and History, I'm also a member of the Interdisciplinary Honors Program, Honors in History program, and Phi Beta Kappa. During my time at the UW I have been honoured to received the Thomas M. Power Prize for outstanding undergraduate essay, Maurice D. and Lois M. Schawrtz Scholarship in Non-Western History, Larry Lee Sleizer Scholarship in History and the Shih Chun and Mamie Kwoh Wang Endowed Scholarship."
     },
 
   ],
@@ -98,20 +98,20 @@ let resumeData = {
       fullDescription:"This rebranding for the Seattle Pinball Museum is an exercise in designing a cohesive visual system, including logo, iconography, typography, imagery, color, and composition. Starting from user research, I designed these elements in phases, integrated them into a 3-screen flow for a potential mobile app, and finally developed a complete brand book for presentation."
     },
     {
+      name:"HCDE Alumni Experience Study",
+      description:"user study",
+      imgurl:"images/portfolio/HCDE_logo.png",
+      title:"HCDE Alumni Experience Study",
+      githubLink:"https://jess113.github.io/portfolio/#/HCDE",
+      fullDescription:"In a final report to the HCDE Alumni Leadership Board, my team presented the persona and journey map for recent HCDE graduates from our 2-month study. Based on topline findings from interviews with the alumni, we reccommended specific actions aimed to improve alumni engagement and preparation for entering the workforce."
+    },
+    {
       name:"Svoboda Diaries Project",
       description:"web design",
       imgurl:"images/portfolio/Svoboda_logo.png",
       title:"Svoboda Diaries Project",
       githubLink:"https://www.svobodadiariesproject.org/",
       fullDescription:"Working on the Svoboda Diaries Project under Newbook Digital Texts, I'm involved in the redesign of the project website. The current website hosts a new diary viewer that allows users to read text transcriptions and scans of the original document side by side, as well as an event timeline to faciliate better experience in navigating through the numerous diaries."
-    },
-    {
-      name:"HCDE Alumni Experience Study",
-      description:"user study",
-      imgurl:"images/portfolio/HCDE_logo.png",
-      title:"HCDE Alumni Experience Study",
-      githubLink:"images/portfolio/HCDE report.pdf",
-      fullDescription:"In a final report to the HCDE Alumni Leadership Board, my team presented the persona and journey map for recent HCDE graduates from our 2-month study. Based on topline findings from interviews with the alumni, we reccommended specific actions aimed to improve alumni engagement and preparation for entering the workforce."
     },
   ],
   portfolio_code:[

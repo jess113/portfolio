@@ -104,7 +104,7 @@ class SPM extends Component {
                   </p>
                     <img src={introduction} title="Introduction" alt="in" style={{ marginBottom: 30 }} />
                     <p>
-                      This project was completed over nine weeks as part of an undergraduate course on User-Centered Design in the Human Centered Design and Engineering department at the University of Washington in Winter 2019.
+                      This project was completed over nine weeks as part of an undergraduate course on User-Centered Design in the Human Centered Design &amp; Engineering department at the University of Washington in Winter 2019.
                   </p>
                   </div>
                 </div>
