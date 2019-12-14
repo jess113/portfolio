@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b2c04c66ca209703ee1cc25ec554ca9e",
+    "revision": "de769e3d519454a7d7154e9be6690adc",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.f74a8007.chunk.css"
   },
   {
-    "revision": "9a7fe84be5ce44e56abe",
+    "revision": "a23ea5cde977816e5d04",
     "url": "/portfolio/static/css/main.f64ae597.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.798a7321.chunk.js"
   },
   {
-    "revision": "9a7fe84be5ce44e56abe",
-    "url": "/portfolio/static/js/main.3b10696d.chunk.js"
+    "revision": "a23ea5cde977816e5d04",
+    "url": "/portfolio/static/js/main.c83da4a6.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Long_SPM_logo.33724d62.png"
   },
   {
-    "revision": "9be47033bb6cd4f91691b781f33d0169",
-    "url": "/portfolio/static/media/Resume_Jesse_Du.9be47033.pdf"
+    "revision": "f2b9efae3d6654b0a71e6274c5a7ad7d",
+    "url": "/portfolio/static/media/Resume_Jesse_Du.f2b9efae.pdf"
   },
   {
     "revision": "90eb35fdf644f5f99cce22b76af3185a",

@@ -22,7 +22,7 @@ let resumeData = {
         className:"fa fa-envelope"
       }
     ],
-  aboutme:"Born and raised in Beijing, China, studied in Vancouver, BC, and now living in Seattle, WA, I'm currently finishing my B.S. in Human Centered Design & Engineering (HCDE) and B.A. in History. My main focus is in UX design but I'm also deeply interested in user research; for my History degree I'm focusing on East Asia and international relations. For me as a double-major student, User Experience is the field where my passions for technology, design and the humanities can combine into one.",
+  aboutme:"Having lived in Beijing, China, Vancouver, BC, and now Seattle, WA, I'm currently finishing my B.S. in Human Centered Design & Engineering (HCDE) and B.A. in History. My main focus is in UX design but I'm also deeply interested in user research; for my History degree I'm focusing on East Asia and international relations. For me as a double-major student, User Experience is the field where my passions for technology, design and the humanities can combine into one.",
   address:"Seattle, Washington",
   website:"jessedu.com",
   education:[
@@ -41,7 +41,7 @@ let resumeData = {
       specialization:"UX/UI Intern",
       MonthOfLeaving:"Sept 2018 - present",
       YearOfLeaving:"",
-      Achievements:"Working with students and faculty at the University of Washington under the Newbook Digital Texts digital humanities initiative, I initially worked on the Svoboda Diaries Project as Historical Research Intern, organizing and transcribing primary source historical documents from 19th century Ottoman Iraq for open-access digital publication. Now as a technology intern on the project's UX/UI team, I took part in the overhaul and redesign of old project websites. I'm currently working with fellow teammates to maintain the new website and continue to develop new human-centred features; I am in charge of conducting usability tests on the website and interviews for user research."
+      Achievements:"Working with students and faculty at the University of Washington under the Newbook Digital Texts digital humanities initiative, I initially worked on the Svoboda Diaries Project as Historical Research Intern, organizing and transcribing primary source historical documents from 19th century Ottoman Iraq for open-access digital publication. Later as a technology intern on the project's UX/UI team, I took part in the overhaul and redesign of old project websites. I'm currently working with fellow teammates to maintain the new website and continue to develop new human-centred features; I am in charge of conducting usability tests on the website and interviews for user research."
     },
     // {
     //   CompanyName:"UW Committee for China-US Dialogue",
@@ -111,7 +111,7 @@ let resumeData = {
       imgurl:"images/portfolio/Svoboda_logo.png",
       title:"Svoboda Diaries Project",
       githubLink:"https://www.svobodadiariesproject.org/",
-      fullDescription:"Working on the Svoboda Diaries Project under Newbook Digital Texts, I'm involved in the redesign of the project website. The current website hosts a new diary viewer that allows users to read text transcriptions and scans of the original document side by side, as well as an event timeline to faciliate better experience in navigating through the numerous diaries."
+      fullDescription:"Working on the Svoboda Diaries Project under Newbook Digital Texts, I'm currently involved in the maintainance and improvement of the new project website. The new website hosts a diary viewer that allows users to read text transcriptions and scans of the original document side by side, as well as an event timeline to faciliate better experience in navigating through the numerous diaries. Click 'See more' to go to the site."
     },
   ],
   portfolio_code:[
