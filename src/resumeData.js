@@ -111,7 +111,7 @@ let resumeData = {
       imgurl:"images/portfolio/Svoboda_logo.png",
       title:"Svoboda Diaries Project",
       githubLink:"https://www.svobodadiariesproject.org/",
-      fullDescription:"Working on the Svoboda Diaries Project under Newbook Digital Texts, I'm currently involved in the maintainance and improvement of the new project website. The new website hosts a diary viewer that allows users to read text transcriptions and scans of the original document side by side, as well as an event timeline to faciliate better experience in navigating through the numerous diaries. Click 'See more' to go to the site."
+      fullDescription:"Working on the Svoboda Diaries Project under Newbook Digital Texts, I'm currently involved in the maintainance and improvement of the new project website. The new website hosts a diary viewer as well as an event timeline to faciliate better experience in navigating through the diaries. Click 'See more' to go to the site."
     },
   ],
   portfolio_code:[
