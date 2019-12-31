@@ -87,7 +87,7 @@ let resumeData = {
       imgurl:"images/portfolio/LinkNow_logo.png",
       title:"LinkNow",
       githubLink:"https://jess113.github.io/portfolio/#/LinkNow",
-      fullDescription:"LinkNow is an app development project running through the full user-centered design cycle, from user research to hi-fidelity prototype. Working in a student team of four for two months, the result of a 2-month collaboration is a mobile platform for potential volunteers and local volunteering organizations aimed to encourage more volunteering by bettering the volunteer searching experience."
+      fullDescription:"LinkNow is an app development project running through the full user-centered design cycle, from user research to hi-fidelity prototype. Working in a student team of four for two months, the result is a mobile platform for potential volunteers and local volunteering organizations aimed to encourage more volunteering by bettering the volunteer searching experience."
     },
     {
       name:"Seattle Pinball Museum Brand Book",
