@@ -95,7 +95,7 @@ let resumeData = {
       imgurl:"images/portfolio/SPM_logo.png",
       title:"Seattle Pinball Museum Brand Book",
       githubLink:"https://jess113.github.io/portfolio/#/SPM",
-      fullDescription:"This rebranding for the Seattle Pinball Museum is an exercise in designing a cohesive visual system, including logo, iconography, typography, imagery, color, and composition. Starting from user research, I designed these elements in phases, integrated them into a 3-screen flow for a potential mobile app, and finally developed a complete brand book for presentation."
+      fullDescription:"This rebranding for the Seattle Pinball Museum is an exercise in designing a cohesive visual system, including logo, iconography, typography, imagery, colour, and composition. Starting from user research, I designed these elements in phases, integrated them into a 3-screen flow for a potential mobile app, and finally developed a complete brand book for presentation."
     },
     {
       name:"HCDE Alumni Experience Study",
@@ -103,7 +103,7 @@ let resumeData = {
       imgurl:"images/portfolio/HCDE_logo.png",
       title:"HCDE Alumni Experience Study",
       githubLink:"https://jess113.github.io/portfolio/#/HCDE",
-      fullDescription:"In a final report to the HCDE Alumni Leadership Board, my team presented the persona and journey map for recent HCDE graduates from our 2-month study. Based on topline findings from interviews with the alumni, we reccommended specific actions aimed to improve alumni engagement and preparation for entering the workforce."
+      fullDescription:"In a final report to the HCDE Alumni Leadership Board, my team presented the persona and journey map for recent HCDE graduates from our 2-month study. Based on topline findings from interviews with the alumni, we recommended specific actions aimed to improve alumni engagement and preparation for entering the workforce."
     },
     {
       name:"Svoboda Diaries Project",
@@ -111,7 +111,7 @@ let resumeData = {
       imgurl:"images/portfolio/Svoboda_logo.png",
       title:"Svoboda Diaries Project",
       githubLink:"https://www.svobodadiariesproject.org/",
-      fullDescription:"Working on the Svoboda Diaries Project under Newbook Digital Texts, I'm currently involved in the maintainance and improvement of the new project website. The new website hosts a diary viewer as well as an event timeline to faciliate better experience in navigating through the diaries. Click 'See more' to go to the site."
+      fullDescription:"Working on the Svoboda Diaries Project under Newbook Digital Texts, I'm currently involved in the continued development of the new project website through usability tests and user studies. The website now hosts a diary viewer as well as an event timeline to faciliate better experience in navigating through the diaries. Click 'See more' to visit the site."
     },
   ],
   portfolio_code:[
