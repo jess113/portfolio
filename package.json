@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://jess113.github.io/portfolio/#/",
+  "homepage": "http://jessedu.com",
   "eslintConfig": {
     "extends": "react-app"
   },
