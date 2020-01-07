@@ -22,26 +22,26 @@ let resumeData = {
         className:"fa fa-envelope"
       }
     ],
-  aboutme:"Having lived in Beijing, China, Vancouver, BC, and now Seattle, WA, I'm currently finishing my B.S. in Human Centered Design & Engineering (HCDE) and B.A. in History. My main focus is in UX design but I'm also deeply interested in user research; for my History degree I'm focusing on East Asia and international relations. For me as a double-major student, User Experience is the field where my passions for technology, design and the humanities can combine into one.",
+  aboutme:"Having lived in Beijing, China, Vancouver, BC, and now Seattle, WA, I'm currently finishing my B.S. in Human Centered Design & Engineering (HCDE) and B.A. in History. My main focus is in UX design but I'm also deeply interested in user research; for my History study I'm focusing on East Asia and international relations. For me as a double-degree student, User Experience is the field where my passions for technology, design and the humanities can combine into one.",
   address:"Seattle, Washington",
   website:"jessedu.com",
   education:[
     {
       UniversityName:"University of Washington",
-      specialization:"HCDE/History",
+      specialization:"Human Centered Design & Engineering (HCDE) / History",
       MonthOfPassing:"June",
       YearOfPassing:"2021",
-      Achievements:"Currently double-majoring in Human Centered Design & Engineering (HCDE) and History, I'm also a member of the Interdisciplinary Honors Program, Honors in History program, and Phi Beta Kappa. During my time at the UW I have been honoured to received the Thomas M. Power Prize for outstanding undergraduate essay, Maurice D. and Lois M. Schawrtz Scholarship in Non-Western History, Larry Lee Sleizer Scholarship in History and the Shih Chun and Mamie Kwoh Wang Endowed Scholarship."
+      Achievements:"Interdisciplinary Honors Program; Honors in History; Phi Beta Kappa; Thomas M. Power Prize; Maurice D. and Lois M. Schawrtz Scholarship; Larry Lee Sleizer Scholarship; Shih Chun and Mamie Kwoh Wang Endowed Scholarship"
     },
 
   ],
   work:[
     {
-      CompanyName:"Newbook Digital Text",
+      CompanyName:"Newbook Digital Texts",
       specialization:"UX/UI Intern",
       MonthOfLeaving:"Sept 2018 - present",
       YearOfLeaving:"",
-      Achievements:"Working with students and faculty at the University of Washington under the Newbook Digital Texts digital humanities initiative, I initially worked on the Svoboda Diaries Project as Historical Research Intern, organizing and transcribing primary source historical documents from 19th century Ottoman Iraq for open-access digital publication. Later as a technology intern on the project's UX/UI team, I took part in the overhaul and redesign of old project websites. I'm currently working with fellow teammates to maintain the new website and continue to develop new human-centred features; I am in charge of conducting usability tests on the website and interviews for user research."
+      Achievements:"Redesign project website; conduct new website usability tests; interview humanities scholars for user research; proofread and edit primary source historical documents for online publication"
     },
     // {
     //   CompanyName:"UW Committee for China-US Dialogue",
@@ -55,14 +55,14 @@ let resumeData = {
       specialization:"Research Intern",
       MonthOfLeaving:"Jun - Aug",
       YearOfLeaving:"2019",
-      Achievements:"As a part of a two-month HCDE Direct Research Group I interviewed HCDE alumni for user research on post-graduation career experience for the recently-established HCDE Alumni Leadership Board. Using a variety of tools such as personas and journey maps, my group was able to identify points of improvement for the HCDE department. Together we compiled a topline report and presented our findings to the Board."
+      Achievements:"Interview HCDE alumni for user research; create personas and journey maps; compile topline report for presentation to stakeholders"
     },
     {
       CompanyName:"ByteDance",
       specialization:"Content Operations Intern",
-      MonthOfLeaving:"June -",
-      YearOfLeaving:"Aug 2018",
-      Achievements:"As part of a two-month internship at the Chinese internet technology company in Beijing I managed daily operations for the English section of international news and information content platform TopBuzz. I assisted in the training of machine-learning algorithms for personalized recommendation, and also identified fake news and low-quality content as part of a newly-created anti-fake news task force."
+      MonthOfLeaving:"June - Aug",
+      YearOfLeaving:"2018",
+      Achievements:"Manage daily operation for online content platform; assist in training machine-learning algorithms; part of anti-fake news task force"
     }
   ],
   // skillsDescription:"My skills:",
@@ -87,7 +87,7 @@ let resumeData = {
       imgurl:"images/portfolio/LinkNow_logo.png",
       title:"LinkNow",
       githubLink:"https://jess113.github.io/portfolio/#/LinkNow",
-      fullDescription:"LinkNow is an app development project running through the full user-centered design cycle, from user research to hi-fidelity prototype. Working in a student team of four for two months, the result is a mobile platform for potential volunteers and local volunteering organizations aimed to encourage more volunteering by bettering the volunteer searching experience."
+      fullDescription:"LinkNow is an app development project running through the full user-centered design cycle, from user research to hi-fidelity prototype. Working in a student team of four for 2 months, the result is a mobile platform for potential volunteers and local volunteering organizations aimed to encourage more volunteering by bettering the volunteer searching experience."
     },
     {
       name:"Seattle Pinball Museum Brand Book",
