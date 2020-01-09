@@ -50,3 +50,13 @@ header {
 .image-gallery {
   margin-bottom: 30px;
 }
+.image-gallery-thumbnail {
+  display: inline-block;
+  border: 4px solid transparent;
+  transition: border .3s ease-out;
+  width: 100px; }
+  .image-gallery-thumbnail.active {
+    border: 4px solid #11ABB0 !important; }
+    @media (max-width: 767px) {
+      .image-gallery-thumbnail.active {
+        border: 3px solid #11ABB0 !important; } }

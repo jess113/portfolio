@@ -19,10 +19,11 @@ export default class Porfolio extends Component {
   render() {
     const { modal } = this.state
     return (<section id="portfolio">
-      <div className="row">
-        <div className="twelve columns collapsed">
-          <h1>My Design Projects</h1>
-          {/*<div className="row">
+      <div className="row design">
+        <div className="three columns header-col">
+          <h1><span>Design Projects</span></h1>
+        </div>
+        {/*<div className="row">
         <div className="twelve columns collapsed">
           <div className="project-column">
             <Link to="/LinkNow"><img src={logo1} title="A user-centered design project" alt="LinkNow" /></Link>
@@ -35,53 +36,58 @@ export default class Porfolio extends Component {
           </div>
        </div>*/}
 
-          <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
-            {
-              resumeData.portfolio_project && resumeData.portfolio_project.map((item, i) => {
-                return (
-                  <div key={i} className="columns portfolio-item">
-                    <div className="item-wrap">
-                      <div onClick={() => this.setState({ modal: item })} style={{ cursor: 'pointer' }}>
-                        <img src={`${item.imgurl}`} className="item-img" alt="img" />
-                        <div className="overlay">
-                          <div className="portfolio-item-meta">
-                            <h5>{item.name}</h5>
-                            <p>{item.description}</p>
-                          </div>
+        <div className="nine columns main-col">
+          {
+            resumeData.portfolio_project && resumeData.portfolio_project.map((item, i) => {
+              return (
+                <div key={i} className="rows portfolio-item">
+                  <div className="item-wrap">
+                    {/*<div onClick={() => this.setState({ modal: item })} style={{ cursor: 'pointer' }}>*/}
+                      <img src={`${item.imgurl}`} className="item-img" alt="img" />
+                      <div className="overlay">
+                        <div className="portfolio-item-meta">
+                          <h5>{item.name}</h5>
+                          <p>{item.fullDescription}</p>
+                          <form method="get" action={item.githubLink} target="_blank">
+                            <button style={{ width: "100%" }}>See more</button>
+                          </form>
                         </div>
                       </div>
-                    </div>
+                    {/*</div>*/}
                   </div>
-                )
-              })
-            }
-          </div>
+                </div>
+              )
+            })
+          }
         </div>
       </div>
       <div className="row">
-        <div className="twelve columns collapsed">
-          <h1>My Coding Projects</h1>
-          <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
-            {
-              resumeData.portfolio_code && resumeData.portfolio_code.map((item, i) => {
-                return (
-                  <div key={i} className="columns portfolio-item">
-                    <div className="item-wrap">
-                      <div onClick={() => this.setState({ modal: item })} style={{ cursor: 'pointer' }}>
-                        <img src={`${item.imgurl}`} className="item-img" alt="img" />
-                        <div className="overlay">
-                          <div className="portfolio-item-meta">
-                            <h5>{item.name}</h5>
-                            <p>{item.description}</p>
-                          </div>
-                        </div>
+        <div className="three columns header-col">
+          <h1><span>Coding Projects</span></h1>
+        </div>
+        <div className="nine columns main-col">
+          {
+            resumeData.portfolio_code && resumeData.portfolio_code.map((item, i) => {
+              return (
+                <div key={i} className="rows portfolio-item">
+                  <div className="item-wrap">
+                    {/*<div onClick={() => [this.setState({ modal: item })]} style={{ cursor: 'pointer' }}>*/}
+                    <img src={`${item.imgurl}`} className="item-img" alt="img" />
+                    <div className="overlay">
+                      <div className="portfolio-item-meta">
+                        <h5>{item.name}</h5>
+                        <p>{item.fullDescription}</p>
+                        <form method="get" action={item.githubLink} target="_blank">
+                          <button style={{ width: "100%" }}>See more</button>
+                        </form>
                       </div>
                     </div>
+                    {/*</div>*/}
                   </div>
-                )
-              })
-            }
-          </div>
+                </div>
+              )
+            })
+          }
         </div>
       </div>
 
@@ -89,12 +95,13 @@ export default class Porfolio extends Component {
         visible={modal && modal.name}
         width="600"
         height="400"
+        style={{ content: { borderRadius: '0px' } }}
         effect="fadeInUp"
         onClickAway={() => this.closeModal()}
       >
         <div className="portfolio-modal">
           <div>
-            <h1>{modal.title}</h1>
+            <h3>{modal.title}</h3>
             <p>{modal.fullDescription}</p>
             {/*<a href={modal.githubLink} target="_blank" rel="noopener noreferrer">
               <i className="fa fa-github"></i>&nbsp;
@@ -102,7 +109,7 @@ export default class Porfolio extends Component {
           </a>*/}
           </div>
           <form method="get" action={modal.githubLink} target="_blank">
-            <button style={{width: "100%"}}>See more</button>
+            <button style={{ width: "100%" }}>See more</button>
           </form>
         </div>
       </Modal>

@@ -86,8 +86,8 @@ class SPM extends Component {
           </ul>
         </nav>
 
-        <img src={logo} title="A visual design exercise" alt="SPM" />
         <section id="introduction">
+        <img src={logo} title="A visual design exercise" alt="SPM" />
           <div className="row top-content">
             <div className="three columns header-col">
               <h1><span>Introduction</span></h1>

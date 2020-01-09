@@ -35,8 +35,8 @@ class HCDE extends Component {
           </ul>
         </nav>
 
-        <img src={logo} title="A user-centered design project" alt="LinkNow" />
         <section id="introduction">
+        <img src={logo} title="A user-centered design project" alt="LinkNow" />
           <div className="row top-content">
             <div className="three columns header-col">
               <h1><span>Introduction</span></h1>

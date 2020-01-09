@@ -119,15 +119,13 @@ export default class Resume extends Component {
 
             <div className="nine columns main-col">
                 <div className="row item">
-                  <div className="twelve columns">
                   <div class="columns download">
                   <p>
-                     <a href= {pdf} target="_blank" class="button" style={{color: "white"}}>
+                     <a href= {pdf} target="_blank" class="button" style={{color: "white", display: "block", textAlign: "center"}}>
                        {/* <i class="fa fa-download"></i> */}
                        See Full Resume
                      </a>
                   </p>
-               </div>
                   </div>
                 </div>
             </div>
