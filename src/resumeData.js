@@ -124,11 +124,11 @@ let resumeData = {
       fullDescription:"This is an outrun-themed real-time interactive messaging program I built in React with responsible UI; functions includes instant messaging and photo sharing, username setting, and delete history. The program is currently hosted on Firebase."
     },
     {
-      name:"BillBot",
+      name:"Billbot",
       description:"API app",
       imgurl:"images/portfolio/BillBot_pic.png",
       title:"BillBot",
-      githubLink:"https://billbot-310.appspot.com/",
+      githubLink:"https://github.com/jess113/Billbot",
       fullDescription:"This a program I wrote in Python that writes Wikipedia article for US Congressional bills. At the current stage, the program searches for a specific legislation by its ID and uses data from the ProPublica Congress API to produce a summary in Wikitext format, which the user can directly copy and paste into Wikipedia and create the new article. The program is currently hosted on Google App Engine."
     },
   ],
