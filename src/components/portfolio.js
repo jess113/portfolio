@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import resumeData from '../resumeData';
+import ArtNight5 from '../projects/images/Art_pic.jpg';
 import Modal from 'react-awesome-modal';
-//import logo1 from './LinkNow_logo.png';
-//import logo2 from './HCDE_logo.png';
-//import logo3 from './Svoboda_logo.png';
-//import pdf from './HCDE report.pdf';
 
 export default class Porfolio extends Component {
 
@@ -61,7 +58,8 @@ export default class Porfolio extends Component {
           }
         </div>
       </div>
-      <div className="row">
+
+      <div className="row coding">
         <div className="three columns header-col">
           <h1><span>Coding Projects</span></h1>
         </div>
@@ -88,6 +86,28 @@ export default class Porfolio extends Component {
               )
             })
           }
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="three columns header-col">
+          <h1><span>My Art</span></h1>
+        </div>
+        <div className="nine columns main-col">
+          <div className="rows portfolio-item">
+            <div className="item-wrap">
+              <img src={ArtNight5} className="item-img" alt="img" />
+              <div className="overlay">
+                <div className="portfolio-item-meta">
+                  <h5>Jesse's Wacky Art Corner</h5>
+                  <p>Nuclear armageddon? Random Japanese? Scene from the Wandering Earth? Boring still-lifes? What's the logic behind this? What even is logic? Is Jesse okay? Let's hop on the last bus 482 and explore.</p>
+                  <form method="get" action="https://jess113.github.io/portfolio/#/Art" target="_blank">
+                    <button style={{ width: "100%" }}>See more</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 

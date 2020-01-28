@@ -10,7 +10,8 @@ import './App.css';
 import "react-image-gallery/styles/css/image-gallery.css";
 import LinkNow from './projects/LinkNow';
 import SPM from './projects/SPM';
-import HCDE from './projects/HCDE'
+import HCDE from './projects/HCDE';
+import Art from './projects/Art';
 //import NotFound from './pages/404';
 import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 
@@ -48,8 +49,12 @@ class App extends Component {
               <ProjectFooter />
             </div>
           )}/>
-          {/*<Route component={NotFound}/>
-          <Redirect to="/404"/>*/}
+          <Route exact={true} path='/Art' render={() => (
+            <div className="App">
+              <Art />
+              <ProjectFooter />
+            </div>
+          )}/>
           </Switch>
         </div>
       </HashRouter>
