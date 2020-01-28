@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import logo from './images/Long_HCDE_logo.png';
 import persona from './images/HCDEpersona.png';
 import journey from './images/HCDEjourneymap.png';
-import reflection from './images/reflection.jpg';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Scrollspy from 'react-scrollspy';
 
@@ -36,7 +35,7 @@ class HCDE extends Component {
         </nav>
 
         <section id="introduction">
-        <img src={logo} title="A user-centered design project" alt="LinkNow" />
+        <img src={logo} title="A user-centered design project" alt="LinkNow" style={{width:"100%"}}/>
           <div className="row top-content">
             <div className="three columns header-col">
               <h1><span>Introduction</span></h1>
@@ -46,7 +45,7 @@ class HCDE extends Component {
                 <div className="row item">
                   <div className="twelve columns">
                     <p>
-                    Stakeholder for this research group are the Department of Human Centered Design &amp; Engineering (HCDE) at the University of Washington and the HCDE Alumni Leadership Board. The alumni board was formed in January 2018 to support efforts to: make connections between HCDE students and alumni, to extend HCDE experiences beyond graduation, and to create a learning community around the department.
+                    The stakeholders for this research group are the Department of Human Centered Design &amp; Engineering (HCDE) at the University of Washington and the HCDE Alumni Leadership Board. The alumni board was formed in January 2018 to support efforts to: make connections between HCDE students and alumni, to extend HCDE experiences beyond graduation, and to create a learning community around the department.
                     </p>
                     <p>
                     The research goal is to understand the experiences and needs of HCDE alumni, especially those early in their career. We want to learn about career paths and key transitional moments in alumni careers. We want to understand ongoing learning, networking, and other needs and to discover how alums are meeting or not meeting those needs today. Our efforts will inform board activity planning and help the board to create a strategic direction that will impact student and alumni experiences into the future.

@@ -100,7 +100,7 @@ class LinkNow extends Component {
         </nav>
 
         <section id="introduction">
-        <img src={logo} title="A user-centered design project" alt="LinkNow" />
+        <img src={logo} title="A user-centered design project" alt="LinkNow" style={{width:"100%"}}/>
           <div className="row top-content">
             <div className="three columns header-col">
               <h1><span>Introduction</span></h1>
@@ -192,14 +192,14 @@ class LinkNow extends Component {
                     <ul>
                       <li><span>• </span>Allow User to input Time Availability and cater position to when they are free</li>
                       <li><span>• </span>Allow User to add the fields of volunteering they are interested in</li>
-                      <li><span>• </span>Allow users to be able to engage with a group or community of like-minded individuals volunteering in similar areas</li>
-                      <li><span>• </span>Allow Users to easily apply for a volunteering position, and display information needed to make this decision</li>
-                      <li><span>• </span>Allow users to view upcoming and past events or positions they have signed up for</li>
-                      <li><span>• </span>Allow users to favorite events or organization and have the ability to share these with friends</li>
+                      <li><span>• </span>Allow User to be able to engage with a group or community of like-minded individuals volunteering in similar areas</li>
+                      <li><span>• </span>Allow User to easily apply for a volunteering position, and display information needed to make this decision</li>
+                      <li><span>• </span>Allow User to view upcoming and past events or positions they have signed up for</li>
+                      <li><span>• </span>Allow User to favorite events or organization and have the ability to share these with friends</li>
                     </ul>
                     <h3>Storyboards</h3>
                     <p>
-                      After identifying user pain points with current volunteering platforms, we are ready to come up with solutions that can facilitate a better experience. Following the conditions outlined in our design requirements, we brainstorm scenarios where our application would prove more convenient and enjoyable to the user than the existing alternatives. The reason being, to effectively convey the experience of the design ideation in a narrative format. This would help evaluate potential solutions and their viability from a real-world standpoint.
+                      After identifying user pain points with current volunteering platforms, we are ready to come up with solutions that can facilitate a better experience. Following the conditions outlined in our design requirements, we brainstorm scenarios where our application would prove more convenient and enjoyable to the user than the existing alternatives. By effectively conveying the experience of the design ideation in a narrative format, we can further evaluate the potential solutions and their viability from a real-world standpoint.
                     </p>
                     <img src={storyboard} title="Storyboard" alt="sb" style={{marginBottom: 30}}/>
                     <h3>Information Architecture</h3>
