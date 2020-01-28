@@ -305,6 +305,7 @@ ul#nav li.current a { color: #F06000; }
 #introduction h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
+   line-height: 2em;
 }
 #introduction h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
@@ -353,6 +354,7 @@ ul#nav li.current a { color: #F06000; }
 #research h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
+   line-height: 2em;
 }
 #research h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
@@ -401,6 +403,7 @@ ul#nav li.current a { color: #F06000; }
 #ideation h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
+   line-height: 2em;
 }
 #ideation h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
@@ -449,6 +452,7 @@ ul#nav li.current a { color: #F06000; }
 #prototype h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
+   line-height: 2em;
 }
 #prototype h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
@@ -497,6 +501,7 @@ ul#nav li.current a { color: #F06000; }
 #reflection h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
+   line-height: 2em;
 }
 #reflection h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
@@ -677,6 +682,12 @@ ul#nav li.current a { color: #F06000; }
 #portfolio .main-col { padding-right: 10%; }
 
 .design {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #fff;
+}
+
+.coding {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #fff;
