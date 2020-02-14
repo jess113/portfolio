@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c9db337b.chunk.css",
-    "main.js": "/static/js/main.e5acf716.chunk.js",
-    "main.js.map": "/static/js/main.e5acf716.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.cde7f463.chunk.css": "/static/css/2.cde7f463.chunk.css",
-    "static/js/2.6300a148.chunk.js": "/static/js/2.6300a148.chunk.js",
-    "static/js/2.6300a148.chunk.js.map": "/static/js/2.6300a148.chunk.js.map",
+    "main.css": "/static/css/main.632efbc7.chunk.css",
+    "main.js": "/static/js/main.7a5317d8.chunk.js",
+    "main.js.map": "/static/js/main.7a5317d8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c2b20a0b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c2b20a0b.js.map",
+    "static/css/2.62027c08.chunk.css": "/static/css/2.62027c08.chunk.css",
+    "static/js/2.03854389.chunk.js": "/static/js/2.03854389.chunk.js",
+    "static/js/2.03854389.chunk.js.map": "/static/js/2.03854389.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.58bca0e0a7387b1df7fcd68db2a8e107.js": "/precache-manifest.58bca0e0a7387b1df7fcd68db2a8e107.js",
+    "precache-manifest.05f6e84616e3857fea6bc5e3edad67d9.js": "/precache-manifest.05f6e84616e3857fea6bc5e3edad67d9.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.cde7f463.chunk.css.map": "/static/css/2.cde7f463.chunk.css.map",
-    "static/css/main.c9db337b.chunk.css.map": "/static/css/main.c9db337b.chunk.css.map",
+    "static/css/2.62027c08.chunk.css.map": "/static/css/2.62027c08.chunk.css.map",
+    "static/css/main.632efbc7.chunk.css.map": "/static/css/main.632efbc7.chunk.css.map",
+    "static/js/2.03854389.chunk.js.LICENSE.txt": "/static/js/2.03854389.chunk.js.LICENSE.txt",
     "static/media/ArtNight1.jpg": "/static/media/ArtNight1.d0ad06e1.jpg",
     "static/media/ArtNight10.jpg": "/static/media/ArtNight10.5f0271ab.jpg",
     "static/media/ArtNight11.jpg": "/static/media/ArtNight11.e52bf36c.jpg",
@@ -41,7 +42,7 @@
     "static/media/Long_HCDE_logo.png": "/static/media/Long_HCDE_logo.76550451.png",
     "static/media/Long_LinkNow_logo.png": "/static/media/Long_LinkNow_logo.859e9069.png",
     "static/media/Long_SPM_logo.png": "/static/media/Long_SPM_logo.33724d62.png",
-    "static/media/Resume_Jesse_Du.pdf": "/static/media/Resume_Jesse_Du.319693ba.pdf",
+    "static/media/Resume_Jesse_Du.pdf": "/static/media/Resume_Jesse_Du.36933388.pdf",
     "static/media/SPMBrandbook1.png": "/static/media/SPMBrandbook1.90eb35fd.png",
     "static/media/SPMBrandbook2.png": "/static/media/SPMBrandbook2.b7695f94.png",
     "static/media/SPMBrandbook3.png": "/static/media/SPMBrandbook3.fade75e0.png",
@@ -78,5 +79,12 @@
     "static/media/wireframe2.png": "/static/media/wireframe2.953919be.png",
     "static/media/wireframe3.png": "/static/media/wireframe3.39580a03.png",
     "static/media/wireframe4.png": "/static/media/wireframe4.301bbe35.png"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2b20a0b.js",
+    "static/css/2.62027c08.chunk.css",
+    "static/js/2.03854389.chunk.js",
+    "static/css/main.632efbc7.chunk.css",
+    "static/js/main.7a5317d8.chunk.js"
+  ]
 }

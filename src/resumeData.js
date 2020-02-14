@@ -1,6 +1,6 @@
 let resumeData = {
   name: "Jesse Du",
-  role: "aspiring UX Designer based in Seattle, WA",
+  role: "aspiring UX Designer and Researcher based in Seattle, WA",
   linkedinId:"jess113",
   //skypeid: "Your skypeid",
   email: "du.jesse@hotmail.com",
