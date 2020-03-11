@@ -29,8 +29,8 @@ let resumeData = {
     {
       UniversityName:"University of Washington",
       specialization:"Human Centered Design & Engineering / History",
-      MonthOfPassing:"June",
-      YearOfPassing:"2021",
+      MonthOfPassing:"Sept 2017 - June 2021",
+      YearOfPassing:"",
       Achievements:"Currently double-majoring in Human Centered Design & Engineering (HCDE) and History, I'm also a member of Phi Beta Kappa, the Interdisciplinary Honors Program, Honors in History program. During my time at the UW I have been honoured to received the Thomas M. Power Prize for outstanding undergraduate essay, Maurice D. and Lois M. Schawrtz Scholarship in Non-Western History, Larry Lee Sleizer Scholarship in History and the Shih Chun and Mamie Kwoh Wang Endowed Scholarship."
     },
 
