@@ -12,11 +12,6 @@ let resumeData = {
         className:"fa fa-linkedin"
       },
       {
-        name:"github",
-        url:"http://github.com/jess113",
-        className:"fa fa-github"
-      },
-      {
         name:"email",
         url:"mailto:du.jesse@hotmail.com",
         className:"fa fa-envelope"
@@ -37,19 +32,19 @@ let resumeData = {
   ],
   work:[
     {
+      CompanyName:"Center for an Informed Public",
+      specialization:"Research Intern",
+      MonthOfLeaving:"",
+      YearOfLeaving:"March 2020 - present",
+      Achievements:"I am one of the first groups of student interns at the newly founded Cetner for an Informed Public, a research lab jointly led by the Department of uman Centered Design & Engineering, the Information School and the School of Law to understand and tackle social media misinformation. As a qualitative researcher on the team, I work closely with data scientists to identify and decode current trends of misinformation such as rumours and conspiracy theories on Twitter, Facebook, YouTube and other platforms and develop design, community engagement, and legal strategies to help mitigate the negative effects of misinformation."
+    },
+    {
       CompanyName:"Newbook Digital Texts",
       specialization:"UX/UI Intern",
       MonthOfLeaving:"Sept 2018 - present",
       YearOfLeaving:"",
       Achievements:"Working with students and faculty at the University of Washington under the Newbook Digital Texts digital humanities initiative, I initially worked on the Svoboda Diaries Project as Historical Research Intern, organizing and transcribing primary source historical documents from 19th century Ottoman Iraq for open-access digital publication. Later as a technology intern on the project's UX/UI team, I took part in the overhaul and redesign of old project websites. I'm currently working with fellow teammates to maintain the new website and continue to develop new human-centred features."
     },
-    // {
-    //   CompanyName:"UW Committee for China-US Dialogue",
-    //   specialization:"Event Organizer/Liaison",
-    //   MonthOfLeaving:"",
-    //   YearOfLeaving:"Oct 2018 - present",
-    //   Achievements:"As an organizer of the student-run non-profit organization, I'm in charge of inviting and liaising with American and international scholars as well as co-ordinating across various university departments to hold public lectures and symposiums regarding US-China relations at the University of Washington."
-    // },
     {
       CompanyName:"UW Department of HCDE",
       specialization:"Research Intern",

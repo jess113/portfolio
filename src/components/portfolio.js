@@ -87,6 +87,9 @@ export default class Porfolio extends Component {
             })
           }
         </div>
+        <div className="nine columns main-col">
+          <p className="info">And this website! Designed and written using React.js</p>
+        </div>
       </div>
 
       <div className="row">

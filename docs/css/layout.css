@@ -678,6 +678,16 @@ ul#nav li.current a { color: #F06000; }
       border-bottom: 3px solid #11ABB0;
       padding-bottom: 6px;
    }
+#portfolio .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#portfolio .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
 
 #portfolio .main-col { padding-right: 10%; }
 
