@@ -235,7 +235,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -263,12 +263,17 @@ ul#nav li.current a { color: #F06000; }
 .education {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+   border-bottom: 1px solid #D6D6D6;
 }
 .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+   border-bottom: 1px solid #D6D6D6;
+}
+.publication {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #D6D6D6;
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -663,7 +668,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #fff;
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -694,13 +699,13 @@ ul#nav li.current a { color: #F06000; }
 .design {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid #fff;
+   border-bottom: 1px solid #E8E8E8;
 }
 
 .coding {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid #fff;
+   border-bottom: 1px solid #E8E8E8;
 }
 
 /* Portfolio Content */

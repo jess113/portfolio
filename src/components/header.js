@@ -3,7 +3,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Scrollspy from 'react-scrollspy'
 import resumeData from '../resumeData';
 
-const navItems = ['home', 'resume', 'portfolio', 'about']
+const navItems = ['home', 'portfolio', 'resume', 'about']
 
 export default class Header extends Component {
 
@@ -48,7 +48,7 @@ export default class Header extends Component {
           </div>
 
           <p className="scrolldown">
-            <AnchorLink href="#resume"><i className="icon-down-circle"></i></AnchorLink>
+            <AnchorLink href="#portfolio"><i className="icon-down-circle"></i></AnchorLink>
           </p>
 
         </header>

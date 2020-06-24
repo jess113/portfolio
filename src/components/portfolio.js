@@ -18,7 +18,7 @@ export default class Porfolio extends Component {
     return (<section id="portfolio">
       <div className="row design">
         <div className="three columns header-col">
-          <h1><span>Design Projects</span></h1>
+          <h1><span>My Projects</span></h1>
         </div>
         {/*<div className="row">
         <div className="twelve columns collapsed">
@@ -57,9 +57,12 @@ export default class Porfolio extends Component {
             })
           }
         </div>
+        <div className="nine columns main-col">
+          <p className="info">And many more! Please reach out and ask me if you are interested.</p>
+        </div>
       </div>
 
-      <div className="row coding">
+      {/*<div className="row coding">
         <div className="three columns header-col">
           <h1><span>Coding Projects</span></h1>
         </div>
@@ -69,7 +72,6 @@ export default class Porfolio extends Component {
               return (
                 <div key={i} className="rows portfolio-item">
                   <div className="item-wrap">
-                    {/*<div onClick={() => [this.setState({ modal: item })]} style={{ cursor: 'pointer' }}>*/}
                     <img src={`${item.imgurl}`} className="item-img" alt="img" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -80,7 +82,6 @@ export default class Porfolio extends Component {
                         </form>
                       </div>
                     </div>
-                    {/*</div>*/}
                   </div>
                 </div>
               )
@@ -90,7 +91,7 @@ export default class Porfolio extends Component {
         <div className="nine columns main-col">
           <p className="info">And this website! Designed and written using React.js</p>
         </div>
-      </div>
+      </div>*/}
 
       <div className="row">
         <div className="three columns header-col">

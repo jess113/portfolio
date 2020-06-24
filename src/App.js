@@ -8,6 +8,7 @@ import Footer from './components/footer';
 import ProjectFooter from './components/projectfooter';
 import './App.css';
 import "react-image-gallery/styles/css/image-gallery.css";
+import VizCAD from './projects/VizCAD';
 import LinkNow from './projects/LinkNow';
 import SPM from './projects/SPM';
 import HCDE from './projects/HCDE';
@@ -24,8 +25,8 @@ class App extends Component {
           <Route exact={true} path='/' render={() => (
             <div className="App">
               <Header />
-              <Resume />
               <Portfolio />
+              <Resume />
               <About />
               {/*<Contact />*/}
               <Footer />
@@ -34,6 +35,12 @@ class App extends Component {
           <Route exact={true} path='/LinkNow' render={() => (
             <div className="App">
               <LinkNow />
+              <ProjectFooter />
+            </div>
+          )}/>
+          <Route exact={true} path='/VizCAD' render={() => (
+            <div className="App">
+              <VizCAD />
               <ProjectFooter />
             </div>
           )}/>

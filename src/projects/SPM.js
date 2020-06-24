@@ -96,15 +96,12 @@ class SPM extends Component {
               {
                 <div className="row item">
                   <div className="twelve columns">
-                    <p>
-                      The Seattle Pinball Museum (SPM) is an arcade center dedicated to the preservation of pinball. Their stated mission is to share pinball with local collectors and display vintage pinball machines as a form of interactive, kinetic art. The primary audience are “pinheads”—pinball enthusiasts and collectors—as well as tourists; the venue is also a popular spot for Seattle locals.
-                  </p>
-                    <p>
-                      In this visual design exercise, I set out to completely redesign the logo, iconography, and typography of the SPM brand.
+                  <p>
+                      The Seattle Pinball Museum (SPM) is an arcade center dedicated to the preservation of pinball. Their stated mission is to share pinball with local collectors and <b>display vintage pinball machines as a form of interactive, kinetic art</b>. The primary audience are “pinheads”—pinball enthusiasts and collectors—as well as tourists; the venue is also a popular spot for Seattle locals. In this visual design exercise, I set out to <b style={{color: "#11ABB0"}}>completely redesign the logo, iconography, and typography of the SPM brand.</b>
                   </p>
                     <img src={introduction} title="Introduction" alt="in" style={{ marginBottom: 30 }} />
-                    <p>
-                      This project was completed over nine weeks as part of an undergraduate course on User-Centered Design in the Human Centered Design &amp; Engineering department at the University of Washington in Winter 2019.
+                  <p>
+                      This project was completed over nine weeks by myself as part of an undergraduate course on User-Centered Design in the Human Centered Design &amp; Engineering department at the University of Washington in Winter 2019.
                   </p>
                   </div>
                 </div>
@@ -124,7 +121,7 @@ class SPM extends Component {
                   <div className="twelve columns">
                     <h3>Design Research</h3>
                     <p>
-                      In the initial stage of the final assignment, I first conduct background research on the client to understand their mission, and how that mission is visually represented in their current brand identity. By visiting SPM's physical location in Seattle and interviewing storeowners over phone, I am able to identify SPM's stated mission, primary and secondary audience, constituent relation, and current visual brand.
+                      In the initial stage of the project, I first conduct background research on the client to understand their mission, and how that mission is visually represented in their current brand identity. By visiting SPM's physical location in Seattle and interviewing storeowners over phone, I am able to identify SPM's stated mission, primary and secondary audience, constituent relation, and current visual brand.
                     </p>
                     <h6>Takeaways</h6>
                     <ul>

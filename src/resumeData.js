@@ -28,7 +28,6 @@ let resumeData = {
       YearOfPassing:"",
       Achievements:"Currently double-majoring in Human Centered Design & Engineering (HCDE) and History, I'm also a member of Phi Beta Kappa, the Interdisciplinary Honors Program, Honors in History program. During my time at the UW I have been honoured to received the Thomas M. Power Prize for outstanding undergraduate essay, Maurice D. and Lois M. Schawrtz Scholarship in Non-Western History, Larry Lee Sleizer Scholarship in History and the Shih Chun and Mamie Kwoh Wang Endowed Scholarship."
     },
-
   ],
   work:[
     {
@@ -60,6 +59,35 @@ let resumeData = {
       Achievements:"As part of a two-month internship at the Chinese internet technology company in Beijing, I managed daily operations for the English section of international news and information content platform TopBuzz. I assisted in the training of machine-learning algorithms for personalized recommendation, and also identified fake news and low-quality content as part of a newly-created anti-fake news task force."
     }
   ],
+  publication:[
+    {
+      PaperName:"The Crossfire of Memories and Identities: The East Asian Controversy Over Hiroshima and Nagasaki",
+      journal:"Jackson School Journal",
+      VolumeNumber:"Volume 8",
+      IssueNumber:"Number 1",
+      Year:"2019",
+      Link:"https://jsis.washington.edu/jsjournal/wp-content/uploads/sites/25/2020/04/JSJ-ISSUE-SPRING-2019-V8N1-Crossfire-Jesse-Du.pdf",
+      Abstract:"When it comes to the Second World War, underlying the sensitive topic of Hiroshima and Nagasaki, as well as the plethora of other “history problems” constantly plaguing the East Asian international community, is the fundamental conflict in historical memory and national identity.",
+    },
+    {
+      PaperName:"魏玛共和国末期的军国主义与和平主义",
+      journal:"战争事典之热兵器时代",
+      VolumeNumber:"Volume 6",
+      IssueNumber:"Number 1",
+      Year:"2019",
+      Link:"https://www.amazon.cn/dp/B07QYMCZNN",
+      Abstract:"“Militarist and Pacifist Ideologies in the Last Phase of the Weimar Republic.” A Chinese translation of the chapter by Wolfram Wette in Volume 1 of “Germany and the Second World War” by the Deutsche Verlags-Anstalt.",
+    },
+    {
+      PaperName:"Pride before the Fall: Why Japan Failed at Tank Warfare",
+      journal:"World War II",
+      VolumeNumber:"Volume 31",
+      IssueNumber:"Number 6",
+      Year:"2017",
+      Link:"https://www.historynet.com/why-japan-armored-warfare-failed.htm",
+      Abstract:"During World War II, Germany's tanks were deemed superior. But Japan was the first leading nation in armored warfare before the war.",
+    },
+  ],
   // skillsDescription:"My skills:",
   // skills:[
   //   {
@@ -77,12 +105,20 @@ let resumeData = {
   // ],
   portfolio_project:[
     {
+      name:"VizCAD",
+      description:"product design",
+      imgurl:"images/portfolio/VizCAD_pic.png",
+      title:"VizCAD",
+      githubLink:"https://jess113.github.io/portfolio/#/VizCAD",
+      fullDescription:"VizCAD is an integrated computer-aided dispatch (CAD) platform aimed to faciliate more efficient interagency cooperation in traffic incident response in the Greater Seattle Area. Working with real-world traffic agencies, our student team of three navigated through the complex CAD environment currently employed by six different agencies in Seattle and designed a new integrated visual system that can effectively serve everyone."
+    },
+    {
       name:"LinkNow",
       description:"product design",
       imgurl:"images/portfolio/LinkNow_pic.png",
       title:"LinkNow",
       githubLink:"https://jess113.github.io/portfolio/#/LinkNow",
-      fullDescription:"LinkNow is an app development project running through the full user-centered design cycle, from user research to hi-fidelity prototype. Working in a student team of four for two months, the result is a mobile platform for potential volunteers and local volunteering organizations aimed to encourage more volunteering by bettering the volunteer searching experience."
+      fullDescription:"LinkNow is a mobile app for connecting potential volunteers with local volunteering organizations. Working in a student team of four for two months, we ran through the full user-centered design cycle from user research to hi-fidelity prototype. The final product is a community-centred platform that seeks to actively encourage more volunteering by bettering the individual volunteer opportunity searching experience."
     },
     {
       name:"Seattle Pinball Museum Brand Design",
@@ -106,27 +142,27 @@ let resumeData = {
       imgurl:"images/portfolio/Svoboda_pic.png",
       title:"Svoboda Diaries Project",
       githubLink:"https://www.svobodadiariesproject.org/",
-      fullDescription:"Working on the Svoboda Diaries Project under Newbook Digital Texts, I'm involved in the continued development of the project website. Currently, I'm in charge of conducting usability tests on the website and interviews for user research, as well as leading a new site resturcture effort. The website now hosts a diary viewer as well as an event timeline to faciliate better experience in navigating through the diaries. Click 'See more' to visit the site."
+      fullDescription:"Working on the Svoboda Diaries Project under Newbook Digital Texts, I'm involved in the continued development of the project website, which now hosts a variety of features to faciliate better user experience in content navigation. Currently, I'm in charge of conducting usability tests on the website and interviews for user research, as well as leading a new site resturcture plan. The development effort is still ongoing. Click 'See more' to visit the Svoboda Diaries Project site."
     },
   ],
-  portfolio_code:[
-    {
-      name:"OutChat",
-      description:"messaging app",
-      imgurl:"images/portfolio/OutChat_pic.png",
-      title:"OutChat",
-      githubLink:"https://github.com/jess113/OutChat",
-      fullDescription:"This is an outrun-themed real-time interactive messaging program I built in React with responsible UI; functions includes instant messaging and photo sharing, username setting, and delete history. The program is currently hosted on Firebase."
-    },
-    {
-      name:"Billbot",
-      description:"API app",
-      imgurl:"images/portfolio/BillBot_pic.png",
-      title:"BillBot",
-      githubLink:"https://github.com/jess113/Billbot",
-      fullDescription:"This a program I wrote in Python that writes Wikipedia article for US Congressional bills. At the current stage, the program searches for a specific legislation by its ID and uses data from the ProPublica Congress API to produce a summary in Wikitext format, which the user can directly copy and paste into Wikipedia and create the new article. The program is currently hosted on Google App Engine."
-    },
-  ],
+  // portfolio_code:[
+  //   {
+  //     name:"OutChat",
+  //     description:"messaging app",
+  //     imgurl:"images/portfolio/OutChat_pic.png",
+  //     title:"OutChat",
+  //     githubLink:"https://github.com/jess113/OutChat",
+  //     fullDescription:"This is an outrun-themed real-time interactive messaging program I built in React with responsible UI; functions includes instant messaging and photo sharing, username setting, and delete history. The program is currently hosted on Firebase."
+  //   },
+  //   {
+  //     name:"Billbot",
+  //     description:"API app",
+  //     imgurl:"images/portfolio/BillBot_pic.png",
+  //     title:"BillBot",
+  //     githubLink:"https://github.com/jess113/Billbot",
+  //     fullDescription:"This a program I wrote in Python that writes Wikipedia article for US Congressional bills. At the current stage, the program searches for a specific legislation by its ID and uses data from the ProPublica Congress API to produce a summary in Wikitext format, which the user can directly copy and paste into Wikipedia and create the new article. The program is currently hosted on Google App Engine."
+  //   },
+  // ],
 }
 
 export default resumeData

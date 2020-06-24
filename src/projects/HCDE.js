@@ -45,13 +45,13 @@ class HCDE extends Component {
                 <div className="row item">
                   <div className="twelve columns">
                     <p>
-                    The stakeholders for this research group are the Department of Human Centered Design &amp; Engineering (HCDE) at the University of Washington and the HCDE Alumni Leadership Board. The alumni board was formed in January 2018 to support efforts to: make connections between HCDE students and alumni, to extend HCDE experiences beyond graduation, and to create a learning community around the department.
+                      The stakeholders for this research group are the Department of Human Centered Design &amp; Engineering (HCDE) at the University of Washington and the HCDE Alumni Leadership Board. The alumni board was formed in January 2018 to support efforts to: <b>make connections between HCDE students and alumni, to extend HCDE experiences beyond graduation, and to create a learning community around the department</b>.
                     </p>
                     <p>
-                    The research goal is to understand the experiences and needs of HCDE alumni, especially those early in their career. We want to learn about career paths and key transitional moments in alumni careers. We want to understand ongoing learning, networking, and other needs and to discover how alums are meeting or not meeting those needs today. Our efforts will inform board activity planning and help the board to create a strategic direction that will impact student and alumni experiences into the future.
+                      The research goal is to <b style={{color: "#11ABB0"}}>understand the experiences and needs of HCDE alumni</b>, especially those early in their career. We want to learn about career paths and key transitional moments in alumni careers. We want to understand ongoing learning, networking, and other needs and to discover how alums are meeting or not meeting those needs today. Our efforts will inform board activity planning and help the board to create a strategic direction that will impact student and alumni experiences into the future.
                     </p>
                     <p>
-                    This research was completed over nine weeks as an undergraduate directed research group in the Human Centered Design &amp; Engineering department at the University of Washington in Summer 2019.
+                      This research was completed over nine weeks in a team of four as an undergraduate directed research group in the Human Centered Design &amp; Engineering department at the University of Washington in Summer 2019.
                     </p>
                   </div>
                 </div>

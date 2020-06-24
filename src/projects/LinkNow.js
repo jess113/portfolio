@@ -109,12 +109,12 @@ class LinkNow extends Component {
               {
                 <div className="row item">
                   <div className="twelve columns">
-                    <p>
-                      Currently, many volunteers, especially students, do not actively search for volunteering opportunities but rely on word-of-mouth recommendations while some complain it's often a hassle to find positions that interest them. Our project aims to create a mobile platform that can better connect potential volunteers with volunteering organizations and position by making the searching process as easy and stress-free as possible. LinkNow is a multi-faceted application that allows potential volunteers to gain a personalized selection experience by connecting them to organizations, positions, and groups with like-minded individuals based on their time availability and interests. By lowering the physical barrier between volunteers and opportunities, we hope to encourage more people to start volunteering.
+                  <p>
+                      Currently, <b>many volunteers do not actively search for volunteering opportunities</b> but rely on word-of-mouth recommendations, while some complain it's often a hassle to find positions that interest them. Our project aims to create a mobile platform that can <b>better connect potential volunteers with volunteering organizations and position by making the searching process</b> <b style={{color: "#11ABB0"}}>as easy and stress-free as possible</b>. LinkNow is a multi-faceted application that allows potential volunteers to gain a personalized selection experience by connecting them to organizations, positions, and groups with like-minded individuals based on their time availability and interests. By lowering the physical barrier between volunteers and opportunities, we hope to encourage more people to start volunteering.
                   </p>
                   <img src={introduction} title="Introduction" alt="in" style={{marginBottom: 30}}/>
                     <p>
-                      This project was completed over nine weeks as part of an undergraduate course on User-Centered Design in the Human Centered Design &amp; Engineering department at the University of Washington in Spring 2019.
+                      This project was completed over nine weeks in a team of four as part of an undergraduate course on User-Centered Design in the Human Centered Design &amp; Engineering department at the University of Washington in Spring 2019.
                   </p>
                   </div>
                 </div>
@@ -143,7 +143,7 @@ class LinkNow extends Component {
                     </ul>
                     <h3>Competitive Analysis</h3>
                     <p>
-                      We look at all platforms that our interviewees used to find volunteering opportunities and research other applications that are popular in this space. We review the official websites of the United Way of King County, VolunteerMatch, Handshake, and the Golden Volunteer mobile application. After analyzing their features we could identify what's working for these applications and more importantly what was wrong with them. Linking these pain points back to our findings from the user interviews allow us to start focusing in on our problem space.
+                      We look at all platforms that our interviewees used to find volunteering opportunities and research other applications that are popular in this space. We review the official websites of the United Way of King County, VolunteerMatch, Handshake, and the Golden Volunteer mobile application. After analyzing their features we could identify what's working for these applications and more importantly what was wrong with them. Linking these painpoints back to our findings from the user interviews allow us to start focusing in on our problem space.
                   </p>
                     <img src={companalysis} title="Competitive Analysis" alt="ca" style={{marginBottom: 30}}/>
                     <h6>Takeaways</h6>
@@ -154,7 +154,7 @@ class LinkNow extends Component {
                     </ul>
                     <h3>Personas</h3>
                     <p>
-                      Based on our accumulated research, we decide to create two personas, Anna and Bob, to represent the two main types of student volunteers in our user group—active and passive. By creating these two fictional characters, we can establish “the user” and solidify their different pain-points to help develop our product around. The scenario outlines for our personas guided us through creating our Journey map in the next step.
+                      Based on our accumulated research, we decide to create two personas, Anna and Bob, to represent the two main types of student volunteers in our user group—active and passive. By creating these two fictional characters, we can establish “the user” and solidify their different painpoints to help develop our product around. The scenario outlines for our personas guided us through creating our Journey map in the next step.
                     </p>
                     <ImageGallery items={personas} showPlayButton={false} showFullscreenButton={false}/>
                     <h3>Journey Map</h3>
@@ -186,7 +186,7 @@ class LinkNow extends Component {
                   <div className="twelve columns">
                     <h3>Design Requirements</h3>
                     <p>
-                      As the culmination of our research, the design requirements outline what our product will be containing. After identifying user needs, the shortcomings of existing products, and the problems facing the volunteering community, we develop a list of important features that our product would have in order to address these challenges. We come up with ten specific requirements, broken down following the action-object-context and data-functional-contextual methods. Based on the feedback we have received, we further refine this list into the 6 most essential design requirements. This process helps us to solidify the pain points we are going to tackle through our designs.
+                      As the culmination of our research, the design requirements outline what our product will be containing. After identifying user needs, the shortcomings of existing products, and the problems facing the volunteering community, we develop a list of important features that our product would have in order to address these challenges. We come up with ten specific requirements, broken down following the action-object-context and data-functional-contextual methods. Based on the feedback we have received, we further refine this list into the 6 most essential design requirements. This process helps us to solidify the painpoints we are going to tackle through our designs.
                     </p>
                     <h6>Requirements</h6>
                     <ul>
@@ -199,7 +199,7 @@ class LinkNow extends Component {
                     </ul>
                     <h3>Storyboards</h3>
                     <p>
-                      After identifying user pain points with current volunteering platforms, we are ready to come up with solutions that can facilitate a better experience. Following the conditions outlined in our design requirements, we brainstorm scenarios where our application would prove more convenient and enjoyable to the user than the existing alternatives. By effectively conveying the experience of the design ideation in a narrative format, we can further evaluate the potential solutions and their viability from a real-world standpoint.
+                      After identifying user painpoints with current volunteering platforms, we are ready to come up with solutions that can facilitate a better experience. Following the conditions outlined in our design requirements, we brainstorm scenarios where our application would prove more convenient and enjoyable to the user than the existing alternatives. By effectively conveying the experience of the design ideation in a narrative format, we can further evaluate the potential solutions and their viability from a real-world standpoint.
                     </p>
                     <img src={storyboard} title="Storyboard" alt="sb" style={{marginBottom: 30}}/>
                     <h3>Information Architecture</h3>
@@ -273,14 +273,14 @@ class LinkNow extends Component {
                 <div className="row item">
                   <div className="twelve columns">
                   <p>
-                    Despite the unrelenting due dates and the sometimes hectic coordination, in retrospect, the entire project has been an amazing experience for everyone involved. For many on the team, this is their first time putting their conceptual knowledge of human-centered design into practice, going through the entire design process and creating an actual product that may benefit the community one day.
+                    Despite the unrelenting due dates and the sometimes hectic coordination, in retrospect, the entire project has been an amazing experience for everyone involved. For many on the team, <b>this is our first time putting their conceptual knowledge of human-centered design into practice</b>, going through the entire design process and creating an actual product that may benefit the community one day.
                   </p>
                   <p>
-                    We started out barely knowing what to do. We even had trouble deciding on what user group to begin with—there were some strong opinions about which direction the project should take. In the end, we had to learn to compromise in order to work as a team. After nine weeks of hard work, it is safe to say that we are all exceedingly satisfied with our achievement. It was not easy to coordinate people with busy schedules, and sometimes the deadlines could prove demanding. But we worked it out. Everyone had their own unique characters to contribute to the team, be it technical expertise, organizational skill,  or enthusiasm. Without any of us, LinkNow would not be a possibility.
+                    We started out barely knowing what to do. We even had trouble deciding on what user group to begin with—there were some strong opinions about which direction the project should take. In the end, <b>we all had to learn to</b> <b style={{color: "#11ABB0"}}>compromise</b> <b>in order to work as a team</b>. After nine weeks of hard work, it is safe to say that we are all exceedingly satisfied with our achievement. It was not easy to coordinate people with busy schedules, and sometimes the deadlines could prove demanding. But we worked it out. Everyone had their own unique characters to contribute to the team, be it technical expertise, organizational skill,  or enthusiasm. Without any of us, LinkNow would not be a possibility.
                   </p>
                   <img src={reflection} title="Reflection" alt="rf" style={{marginBottom: 30}}/>
                   <p>
-                  We do recognize the structural limitations of our project—the principal challenge being time. Human-Centered design could always use more interviews, more research, more iterations.  If we could have had more time to work with, we would have definitely conducted a much more thorough user research, and perhaps expand the user group to include more diverse populations than just college students. In our early ideation phase, we also envisaged a completely separate interface of the application for volunteer organizations, but due to time and resource constraints, it had to be scrapped. Our project is far from perfect, but we are confident that LinkNow can become a successful platform for future volunteers.
+                  We do recognize the structural limitations of our project—the principal challenge being time. <b>Human-Centered design could always use</b> <b style={{color: "#11ABB0"}}>more interviews, more research, more iterations</b>.  If we could have had more time to work with, we would have definitely conducted a much more thorough user research, and perhaps expand the user group to include more diverse populations than just college students. In our early ideation phase, we also envisaged a completely separate interface of the application for volunteer organizations, but due to time and resource constraints, it had to be scrapped. Our project is far from perfect, but we are confident that LinkNow can become a successful platform for future volunteers.
                   </p>
                   </div>
                 </div>

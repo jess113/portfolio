@@ -26,7 +26,8 @@ export default class Resume extends Component {
                       <h3>{item.UniversityName}</h3>
                       <p className="info">
                         {item.specialization}
-                        <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
+                        <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em>
+                      </p>
                       <p>
                         {item.Achievements}
                       </p>
@@ -37,6 +38,7 @@ export default class Resume extends Component {
             }
           </div>
         </div>
+
         <div className="row work">
           <div className="three columns header-col">
             <h1><span>Experience</span></h1>
@@ -62,6 +64,35 @@ export default class Resume extends Component {
                 )
               })
             }
+          </div>
+        </div>
+
+        <div className="row publication">
+          <div className="three columns header-col">
+            <h1><span>Publications</span></h1>
+          </div>
+
+          <div className="nine columns main-col">
+            {
+              resumeData.publication && resumeData.publication.map((item, i) => {
+                return (
+                  <div key={i} className="row item">
+                    <div className="twelve columns">
+                      <h3><a href={item.Link} target="_blank">{item.PaperName}</a></h3>
+                      <p className="info">
+                        {item.journal}
+                        <span>&bull;</span> <em className="date">{item.VolumeNumber}, {item.IssueNumber}, {item.Year}</em></p>
+                      <p>
+                        {item.Abstract}
+                      </p>
+                    </div>
+                  </div>
+                )
+              })
+            }
+          </div>
+          <div className="nine columns main-col">
+            <p className="info">And more!</p>
           </div>
         </div>
 
