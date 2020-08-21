@@ -17,7 +17,7 @@ let resumeData = {
         className:"fa fa-envelope"
       }
     ],
-  aboutme:"Having lived in Beijing, China, Vancouver, BC, and now Seattle, WA, I'm currently finishing my B.S. in Human Centered Design & Engineering (HCDE) and B.A. in History at the University of Washington and am expected to graduate in 2021. My main focus is in UX design but I'm also deeply interested in user research; regarding my History degree, I'm studying East Asia and international relations. For me as a double-degree student, User Experience is the field where my passions for technology, design and the humanities can combine into one.",
+  aboutme:"Having lived in Beijing, China, Vancouver, BC, and now Seattle, WA, I'm currently finishing my double-degree in Human Centered Design & Engineering (HCDE) and History at the University of Washington and am expected to graduate in 2021. My main focus is in UX design but I'm also deeply interested in user research; regarding my History degree, I'm studying East Asia and international relations. For me as a double-degree student, User Experience is the field where my passions for technology, design and the humanities can combine into one.",
   address:"Seattle, Washington",
   website:"jessedu.com",
   education:[
@@ -26,27 +26,34 @@ let resumeData = {
       specialization:"Human Centered Design & Engineering / History",
       MonthOfPassing:"Sept 2017 - June 2021",
       YearOfPassing:"",
-      Achievements:"Currently double-majoring in Human Centered Design & Engineering (HCDE) and History, I'm also a member of Phi Beta Kappa, the Interdisciplinary Honors Program, Honors in History program. During my time at the UW I have been honoured to received the Thomas M. Power Prize for outstanding undergraduate essay, Maurice D. and Lois M. Schawrtz Scholarship in Non-Western History, Larry Lee Sleizer Scholarship in History and the Shih Chun and Mamie Kwoh Wang Endowed Scholarship."
+      Achievements:"Currently earning a BS in Human Centered Design & Engineering (HCDE) and a BA in History, I'm also a member of Phi Beta Kappa, the Interdisciplinary Honors Program, Honors in History program. During my time at the UW I have been honoured to received the Thomas M. Power Prize for outstanding undergraduate essay, Maurice D. and Lois M. Schawrtz Scholarship in Non-Western History, Larry Lee Sleizer Scholarship in History and the Shih Chun and Mamie Kwoh Wang Endowed Scholarship."
     },
   ],
   work:[
     {
+      CompanyName:"Auryc Inc.",
+      specialization:"Design Intern",
+      MonthOfLeaving:"July - August",
+      YearOfLeaving:"2020",
+      Achievements:"Interning as a web graphics designer at Auryc Inc., a Bay Area-based client experience consulting company, I was able to gain valuable insights into current work within the UX industry, learn to design in a business environment, and further familiarize myself with a variety of design tools. During the summer internship I produced a series of graphics and illustrations for the Auryc platform and sales deck, redesigned email templates, and worked with the in-house designer to standardize Auryc's visual system."
+    },
+    {
       CompanyName:"Center for an Informed Public",
       specialization:"Research Intern",
-      MonthOfLeaving:"",
-      YearOfLeaving:"March 2020 - present",
-      Achievements:"I am one of the first groups of student interns at the newly founded Cetner for an Informed Public, a research lab jointly led by the Department of uman Centered Design & Engineering, the Information School and the School of Law to understand and tackle social media misinformation. As a qualitative researcher on the team, I work closely with data scientists to identify and decode current trends of misinformation such as rumours and conspiracy theories on Twitter, Facebook, YouTube and other platforms and develop design, community engagement, and legal strategies to help mitigate the negative effects of misinformation."
+      MonthOfLeaving:"March - June",
+      YearOfLeaving:"2020",
+      Achievements:"I am one of the first groups of student interns at the newly founded Center for an Informed Public, a research lab jointly led by the Department of uman Centered Design & Engineering, the Information School and the School of Law to understand and tackle social media misinformation. As a qualitative researcher on the team, I worked closely with data scientists to identify and decode current trends of misinformation such as rumours and conspiracy theories on Twitter, Facebook, YouTube and other platforms and developed design, community engagement, and legal strategies to help mitigate the negative effects of misinformation."
     },
     {
       CompanyName:"Newbook Digital Texts",
-      specialization:"UX/UI Intern",
+      specialization:"UX/UI Designer",
       MonthOfLeaving:"Sept 2018 - present",
       YearOfLeaving:"",
       Achievements:"Working with students and faculty at the University of Washington under the Newbook Digital Texts digital humanities initiative, I initially worked on the Svoboda Diaries Project as Historical Research Intern, organizing and transcribing primary source historical documents from 19th century Ottoman Iraq for open-access digital publication. Later as a technology intern on the project's UX/UI team, I took part in the overhaul and redesign of old project websites. I'm currently working with fellow teammates to maintain the new website and continue to develop new human-centred features."
     },
     {
       CompanyName:"UW Department of HCDE",
-      specialization:"Research Intern",
+      specialization:"User Experience Researcher",
       MonthOfLeaving:"Jun - Aug",
       YearOfLeaving:"2019",
       Achievements:"As part of a two-month HCDE Direct Research Group, I interviewed HCDE alumni for user research on post-graduation career experience for the recently-established HCDE Alumni Leadership Board. Using a variety of tools such as personas and journey maps, my group was able to identify points of improvement for the HCDE department. Together we compiled a topline report and presented our findings to the Board."
@@ -111,6 +118,14 @@ let resumeData = {
       title:"VizCAD",
       githubLink:"https://jess113.github.io/portfolio/#/VizCAD",
       fullDescription:"VizCAD is an integrated computer-aided dispatch (CAD) platform aimed to faciliate more efficient interagency cooperation in traffic incident response in the Greater Seattle Area. Working with real-world traffic agencies, our student team of three navigated through the complex CAD environment currently employed by six different agencies in Seattle and designed a new integrated visual system that can effectively serve everyone."
+    },
+    {
+      name:"Seattle Transit Visual System Design",
+      description:"visual design",
+      imgurl:"images/portfolio/Transit_pic.png",
+      title:"Seattle Transit Visual System Design",
+      githubLink:"https://jess113.github.io/portfolio/#/Transit",
+      fullDescription:"This is a visual design project aimed to create a comprehensive and cohesive visualization of information system for Seattle public transit. As part of the exercise, I designed a complete visual system including logo, colour, typography, collateral assets, and finally high-fidelity mockups for both a mobile app and a station kiosk."
     },
     {
       name:"LinkNow",

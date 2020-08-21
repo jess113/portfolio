@@ -190,12 +190,12 @@ class LinkNow extends Component {
                     </p>
                     <h6>Requirements</h6>
                     <ul>
-                      <li><span>• </span>Allow User to input Time Availability and cater position to when they are free</li>
-                      <li><span>• </span>Allow User to add the fields of volunteering they are interested in</li>
-                      <li><span>• </span>Allow User to be able to engage with a group or community of like-minded individuals volunteering in similar areas</li>
-                      <li><span>• </span>Allow User to easily apply for a volunteering position, and display information needed to make this decision</li>
-                      <li><span>• </span>Allow User to view upcoming and past events or positions they have signed up for</li>
-                      <li><span>• </span>Allow User to favorite events or organization and have the ability to share these with friends</li>
+                      <li><span>• </span>Allow users to input Time Availability and cater position to when they are free</li>
+                      <li><span>• </span>Allow users to add the fields of volunteering they are interested in</li>
+                      <li><span>• </span>Allow users to be able to engage with a group or community of like-minded individuals volunteering in similar areas</li>
+                      <li><span>• </span>Allow users to easily apply for a volunteering position, and display information needed to make this decision</li>
+                      <li><span>• </span>Allow users to view upcoming and past events or positions they have signed up for</li>
+                      <li><span>• </span>Allow users to favorite events or organization and have the ability to share these with friends</li>
                     </ul>
                     <h3>Storyboards</h3>
                     <p>
@@ -204,11 +204,11 @@ class LinkNow extends Component {
                     <img src={storyboard} title="Storyboard" alt="sb" style={{marginBottom: 30}}/>
                     <h3>Information Architecture</h3>
                     <p>
-                      Following our storyboards, we create an information architecture diagram to map out the high-level components and hierarchical relationships of our system. Creating an Information Architecture helps us to visualize the overall flow of our application. We take all the ideas we have had in our storyboards and create an interconnected flow of our design solution. Mapping out all possible state changes reminds us of other interface interactions we still need to design.
+                      Following our storyboards, we create an information architecture diagram to map out the high-level components and hierarchical relationships of our system. Creating an information architecture helps us to visualize the overall flow of our application. We take all the ideas we have had in our storyboards and create an interconnected flow of our design solution. Mapping out all possible state changes reminds us of other interface interactions we still need to design.
                     </p>
                     <img src={infoarch} title="Information Architecture" alt="ia" style={{marginBottom: 30}}/>
                     <p>
-                      Initially, we have decided to create two sides of our application, one pertaining to Volunteers and the other to organizations that provide these opportunities. Through this process, we realize that to do justice to our project given the timeline it would be unviable to design for both sides and hence we refine our application to focus just on Volunteers. This decision is essential in the success of our project.
+                      Initially, we have decided to create two sides of our application, one pertaining to volunteers and the other to organizations that provide these opportunities. Through this process, we realize that to do justice to our project given the timeline it would be unviable to design for both sides and hence we refine our application to focus just on volunteers. This decision is essential in the success of our project.
                   </p>
                   </div>
                 </div>
@@ -228,7 +228,7 @@ class LinkNow extends Component {
                   <div className="twelve columns">
                     <h3>Paper Prototype</h3>
                     <p>
-                      Utilizing our Information Architecture and combining our vision from our storyboards we are able to identify three key user flows. Combining this knowledge with our Interface Sketches, we transform these user pathways into paper prototypes. We spend a lot of time whiteboarding our ideas and sketching out how the interactions between these screens would flow. Listed below are the three user tasks.
+                      Utilizing our information architecture and combining our vision from our storyboards we are able to identify three key user flows. Combining this knowledge with our interface sketches, we transform these user pathways into paper prototypes. We spend a lot of time whiteboarding our ideas and sketching out how the interactions between these screens would flow. Listed below are the three user tasks.
                     </p>
                     <img src={paperproto} title="Paper Prototype" alt="pp" style={{marginBottom: 30}}/>
                     <h3>Usability Testing</h3>
@@ -248,12 +248,12 @@ class LinkNow extends Component {
                     </ul>
                     <h3>Wireframes</h3>
                     <p>
-                    Using our paper Protytopes as a key reference point and sorting through all our learnings from our usability tests we develop annotated wireframes for LinkNow. This is an integral part for the UI of our system as essential choices relating to, layouts, design patterns, typography, and iconography are made. We create annotated wireframes for our entire system which help us to gain a better overview of what our final product is going to look like. The wireframes act as building blocks for our final high fidelity mockups. 
+                    Using our paper protytopes as a key reference point and sorting through all our learnings from our usability tests we develop annotated wireframes for LinkNow. This is an integral part for the UI of our system as essential choices relating to, layouts, design patterns, typography, and iconography are made. We create annotated wireframes for our entire system which help us to gain a better overview of what our final product is going to look like. The wireframes act as building blocks for our final high fidelity mockups. 
                     </p>
                     <ImageGallery items={wireframes} showPlayButton={false} showFullscreenButton={false}/>
                     <h3>High-fidelity Mockups</h3>
                     <p>
-                    Finally, we take our wireframes along with the feedback we received on it and create our high fidelity mockups. These screens represent the most essential functionality of each user task flow: the Time Slot Availability, Home Screen and Groups Page. After a round of in-class critique, we have the final version of our mockups that displays fully developed stills from our application demonstrating what it would look and feel like in a working environment. The main barrier we have to overcome in the process is deciding the color scheme, typography style, and weight to create an effective visual hierarchy.  
+                    Finally, we take our wireframes along with the feedback we received on it and create our high fidelity mockups. These screens represent the most essential functionality of each user task flow: the Time Slot Availability, Home Screen and Groups pages. After a round of in-class critique, we have the final version of our mockups that displays fully developed stills from our application demonstrating what it would look and feel like in a working environment. The main barrier we have to overcome in the process is deciding the color scheme, typography style, and weight to create an effective visual hierarchy.  
                     </p>
                     <ImageGallery items={hifi} showPlayButton={false} showFullscreenButton={false}/>
                   </div>

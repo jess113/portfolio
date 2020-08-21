@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import resumeData from '../resumeData';
 import { Document, Page, pdfjs } from 'react-pdf';
 import pdf from './Resume_Jesse_Du.pdf';
+import pdf_CN from './Resume_Jesse_Du_CN.pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
@@ -154,7 +155,17 @@ export default class Resume extends Component {
                   <p>
                      <a href= {pdf} target="_blank" class="button" style={{color: "white", display: "block", textAlign: "center"}}>
                        {/* <i class="fa fa-download"></i> */}
-                       See Full Resume
+                       See Full PDF
+                     </a>
+                  </p>
+                  </div>
+                </div>
+                <div className="row item">
+                  <div class="columns download">
+                  <p>
+                     <a href= {pdf_CN} target="_blank" class="button" style={{color: "white", display: "block", textAlign: "center"}}>
+                       {/* <i class="fa fa-download"></i> */}
+                       下载中文简历
                      </a>
                   </p>
                   </div>

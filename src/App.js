@@ -13,6 +13,7 @@ import LinkNow from './projects/LinkNow';
 import SPM from './projects/SPM';
 import HCDE from './projects/HCDE';
 import Art from './projects/Art';
+import Transit from './projects/Transit';
 //import NotFound from './pages/404';
 import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 
@@ -32,15 +33,21 @@ class App extends Component {
               <Footer />
             </div>
           )} />
-          <Route exact={true} path='/LinkNow' render={() => (
-            <div className="App">
-              <LinkNow />
-              <ProjectFooter />
-            </div>
-          )}/>
           <Route exact={true} path='/VizCAD' render={() => (
             <div className="App">
               <VizCAD />
+              <ProjectFooter />
+            </div>
+          )}/>
+          <Route exact={true} path='/Transit' render={() => (
+            <div className="App">
+              <Transit />
+              <ProjectFooter />
+            </div>
+          )}/>
+          <Route exact={true} path='/LinkNow' render={() => (
+            <div className="App">
+              <LinkNow />
               <ProjectFooter />
             </div>
           )}/>
